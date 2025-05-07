@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+{% block title %}User Profile{% endblock %}
+{% block content %}
+
+<div class="form-container">
+  <h1>User Profile</h1>
+
+  <form method="POST" action="/profile" id="profile-form">
+    <!-- MAJOR -->
+    <!-- MAJOR (either normal or from custom req) -->
+    <div>
+      <label><strong>Major:</strong></label>
+
+      <!-- Show current major in view mode -->
+      {% if major %}
+        <span class="readonly">{{ major }}</span>
+      {% elif custom_reqs and custom_reqs[0][1] %}
+        <span class="readonly">{{ custom_reqs[0][1] }}</span>
+      {% else %}
+        <span class="readonly">None</span>
+      {% endif %}
+
+      <!-- Dropdown only shows up in edit mode -->
+      <select name="major" id="major" class="form-control editable hidden" required>
+        <option value="">-- Select a Major --</option>
+        {% for option in major_options %}
+          <option value="{{ option }}"
+                  {% if option == major or (not major and custom_reqs and custom_reqs[0][1] == option) %}selected{% endif %}>
+            {{ option }}
+          </option>
+        {% endfor %}
+      </select>
+    </div><br>
+
+
+
+    <!-- CUSTOM MAJOR TOGGLE -->
+    <div>
+      <button type="button" id="toggleCustomReqsBtn" class="editable hidden" onclick="toggleCustomReqs()">Customize Your Major</button>
+      <div id="custom-req-container" style="display: none; margin-top: 12px;">
+        <h3>Create Custom Major Requirement</h3>
+        <label>Major Name:</label>
+        <input type="text" name="requirement_name"><br><br>
+        <label>Required Courses (comma-separated):</label>
+        <input type="text" name="required_courses"><br><br>
+      </div>
+    </div><br>
+
+    <!-- SPECIAL PROGRAM -->
+    <div>
+      <label><strong>Enrolled in Management Fellows Program?</strong></label>
+      <span class="readonly">{{ "Yes" if special_program == "Management Fellows" else "No" }}</span>
+      <input type="checkbox" name="is_management_fellow" class="editable hidden" {% if special_program == "Management Fellows" %}checked{% endif %}>
+    </div><br>
+
+
+    <!-- START YEAR -->
+    <div>
+      <label><strong>What year did you start studying?</strong></label>
+      <span class="readonly">{{ start_year or "None" }}</span>
+      <input type="number" name="start_year" class="editable hidden" min="2000" max="2100" value="{{ start_year or '' }}" required>
+    </div><br>
+
+    <!-- COMPLETED SEMESTERS -->
+    <div>
+      <label><strong>How many semesters have you completed?</strong></label>
+      <span class="readonly">{{ semester_count }}</span>
+      <select id="completed_semesters" name="completed_semesters" class="editable hidden" onchange="generateSemesterFields(this.value)">
+        {% for i in range(9) %}
+          <option value="{{ i }}" {% if semester_count == i %}selected{% endif %}>
+            {% if i == 0 %}New Student{% elif i == 1 %}1st-semester Freshman{% elif i == 2 %}2nd-semester Freshman
+            {% elif i == 3 %}1st-semester Sophomore{% elif i == 4 %}2nd-semester Sophomore
+            {% elif i == 5 %}1st-semester Junior{% elif i == 6 %}2nd-semester Junior
+            {% elif i == 7 %}1st-semester Senior{% elif i == 8 %}2nd-semester Senior{% endif %}
+          </option>
+        {% endfor %}
+      </select>
+    </div><br>
+
+    <!-- COMPLETED SEMESTER FIELDS -->
+    <div id="semester_inputs" class="editable hidden">
+      {% set i = 1 %}
+      {% for sem, course_list in semesters.items() %}
+        <hr>
+        <h3>Semester {{ i }}</h3>
+        <label>Semester Label:</label>
+        <input type="text" name="semester_name_{{ i }}" value="{{ sem }}" required><br>
+        <label>Courses:</label><br>
+        <textarea name="courses_{{ i }}" rows="3" cols="40">{{ course_list | join(', ') }}</textarea><br>
+        {% set i = i + 1 %}
+      {% endfor %}
+    </div>
+
+    <!-- INTERNATIONAL STUDENT -->
+    <div>
+      <label><strong>Are you an international student?</strong></label>
+      <span class="readonly">{{ "Yes" if is_international_student else "No" }}</span>
+      <input type="checkbox" name="is_international_student" class="editable hidden" {% if is_international_student %}checked{% endif %}>
+    </div>
+
+    <br>
+    <button type="submit" class="editable hidden">Save</button>
+  </form>
+
+  <!-- MODIFY PROFILE BUTTON -->
+  <button type="button" onclick="enableEdit()" id="modify-button">Modify Profile</button>
+</div>
+
+<script>
+function enableEdit() {
+  document.querySelectorAll('.readonly').forEach(el => el.style.display = 'none');
+  document.querySelectorAll('.editable').forEach(el => el.classList.remove('hidden'));
+  document.getElementById('modify-button').style.display = 'none';
+}
+
+function toggleCustomReqs() {
+  const div = document.getElementById('custom-req-container');
+  div.style.display = div.style.display === 'none' ? 'block' : 'none';
+}
+
+function generateSemesterFields(count) {
+  const container = document.getElementById("semester_inputs");
+  container.innerHTML = '';
+  for (let i = 1; i <= count; i++) {
+    container.innerHTML += `
+      <hr>
+      <h3>Semester ${i}</h3>
+      <label>Semester Label:</label>
+      <input type="text" name="semester_name_${i}" required><br>
+      <label>Courses:</label><br>
+      <textarea name="courses_${i}" rows="3" cols="40"></textarea><br>
+    `;
+  }
+}
+</script>
+
+<style>
+.hidden {
+  display: none;
+}
+.readonly {
+  display: inline-block;
+  padding: 6px 10px;
+  background: #fdf6ed;
+  border-radius: 6px;
+  margin-top: 4px;
+}
+</style>
+
+{% endblock %}

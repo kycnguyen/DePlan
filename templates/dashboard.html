@@ -1,0 +1,184 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h1>Dashboard</h1>
+
+<h2>Graduation Requirements</h2>
+
+{% set req_labels = {
+  "AH": "Arts & Humanities (2 courses)",
+  "SS": "Social Science (2 courses)",
+  "SM": "Science & Math (2 courses)",
+  "Q": "Quantitative Reasoning (Q)",
+  "W": "Writing (W)",
+  "S": "Speaking (S)",
+  "PPD": "Power, Privilege & Diversity (PPD)",
+  "FYS": "First-Year Seminar",
+  "GL": "Global Learning"
+} %}
+
+<!-- Alert messages -->
+{% if graduation_progress.TOTAL_COURSES_COUNT < 31 %}
+  <div class="alert warning">⚠️ You have completed only {{ graduation_progress.TOTAL_COURSES_COUNT }}/31 courses required for graduation.</div>
+{% endif %}
+
+{% if major_progress.total_done < major_progress.total_required %}
+  <div class="alert warning">⚠️ You are missing {{ major_progress.total_required - major_progress.total_done }} courses for your major.</div>
+{% endif %}
+
+{% if major_progress.core_missing %}
+  <div class="alert warning">⚠️ Missing core courses: {{ major_progress.core_missing | join(', ') }}</div>
+{% endif %}
+
+{% if major_progress.upper_level_done < major_progress.upper_level_required %}
+  <div class="alert warning">⚠️ You’ve completed only {{ major_progress.upper_level_done }}/{{ major_progress.upper_level_required }} required upper-level courses.</div>
+{% endif %}
+
+<!-- Graduation progress -->
+<table>
+  <thead>
+    <tr>
+      <th>Requirement</th>
+      <th>Status</th>
+      <th>Fulfilled By</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for key in ['AH', 'SS', 'SM', 'Q', 'W', 'S', 'PPD', 'FYS', 'GL'] %}
+      <tr>
+        <td><strong>{{ req_labels.get(key, key) }}</strong></td>
+        <td>
+          {% if graduation_progress.get(key) %}
+            ✅ On Plan
+          {% else %}
+            ❌ Missing
+          {% endif %}
+        </td>
+        <td>
+          {% set fulfilled = graduation_progress.get(key) %}
+          {% if fulfilled is string %}
+            {{ fulfilled }}
+          {% elif fulfilled is iterable %}
+            {{ fulfilled | map('normalize_course_code') | join(', ') }}
+          {% else %}
+            —
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p><strong>Total Courses Completed Toward Degree:</strong> {{ graduation_progress.TOTAL_COURSES_COUNT }}/31</p>
+<div class="progress-group">
+  <div class="progress-bar">
+    <div style="width: {{ (graduation_progress.TOTAL_COURSES_COUNT / 31 * 100)|round(1) }}%"></div>
+  </div>
+</div>
+
+<h2>{{ user_major }} Major Requirements</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Core Courses</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for core in major_progress.core_courses %}
+      <tr>
+        <td>{{ core }}</td>
+        <td>
+          {% if core in major_progress.core_done %}
+            ✅ Done
+          {% else %}
+            ❌ Missing
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<p><strong>Upper-Level Courses:</strong> {{ major_progress.upper_level_done }}/{{ major_progress.upper_level_required }}</p>
+<p><strong>Total Courses Completed (Major Only):</strong> {{ major_progress.total_done }}/{{ major_progress.total_required }}</p>
+
+{% if special_program_progress %}
+  <h2>Management Fellows Program Requirements</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Core Courses</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for course in special_program_progress.required_done %}
+        <tr>
+          <td>{{ course }}</td>
+          <td>✅ Done</td>
+        </tr>
+      {% endfor %}
+      {% for course in special_program_progress.required_missing %}
+        <tr>
+          <td>{{ course }}</td>
+          <td>❌ Missing</td>
+        </tr>
+      {% endfor %}
+      <tr>
+        <td>PHIL Elective</td>
+        <td>
+          {% if special_program_progress.elective_ok %}
+            ✅ Done
+          {% else %}
+            ❌ Missing
+          {% endif %}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+{% endif %}
+
+
+
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fefaf6;
+    margin-bottom: 2rem;
+  }
+  th, td {
+    border: 1px solid #e0c7a5;
+    padding: 10px;
+    text-align: left;
+  }
+  th {
+    background: #f9d4a2;
+  }
+  .alert.warning {
+    background-color: #fff3cd;
+    color: #856404;
+    padding: 12px;
+    border-left: 5px solid #ffc107;
+    margin-bottom: 15px;
+    border-radius: 4px;
+  }
+  .progress-group {
+    margin: 1rem 0;
+  }
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    height: 20px;
+    overflow: hidden;
+  }
+  .progress-bar div {
+    background-color: #4caf50;
+    height: 100%;
+  }
+</style>
+
+{% endblock %}

@@ -1,0 +1,187 @@
+{% extends "base.html" %}
+{% block title %}Course Planner{% endblock %}
+{% block content %}
+
+<h1>Multi-Year Course Planner</h1>
+
+<!-- Hidden course list for autocompletion -->
+<datalist id="course-options">
+  {% for course in all_courses %}
+    <option value="{{ course.course_title }}">{{ course.course_title }} - {{ course.course_name }}</option>
+  {% endfor %}
+</datalist>
+
+<div id="planner-container" style="overflow-x:auto;">
+  <table id="planner-grid" border="1" cellpadding="8" cellspacing="0" style="background-color: white; width: 100%;">
+    <colgroup>
+      <col style="width: 100px;"> <!-- Year -->
+      <col span="5"> <!-- Fall -->
+      <col span="5"> <!-- Spring -->
+    </colgroup>
+    <thead>
+      <tr>
+        <th rowspan="2">Year</th>
+        <th colspan="5">SPRING</th>
+        <th colspan="5">FALL</th>
+      </tr>
+      <tr>
+        <th>Course ID</th><th>Name</th><th>Area</th><th>Comp</th><th>Time</th>
+        <th>Course ID</th><th>Name</th><th>Area</th><th>Comp</th><th>Time</th>
+      </tr>
+    </thead>
+    <tbody id="planner-body">
+      {% for i in range(5) %}
+        {% set year = start_year + i %}
+        <tr>
+          <td>
+            <strong>{{ i + 1 }}<sup>{% if i==0 %}st{% elif i==1 %}nd{% elif i==2 %}rd{% else %}th{% endif %}</sup></strong><br>{{ year }}
+          </td>
+          {% for term in ['spring', 'fall'] %}
+            <td colspan="5">
+              <table class="inner-term-table" data-year="{{ year }}" data-semester="{{ term }}" style="width:100%;">
+                <colgroup>
+                  <col style="width: 20%;">
+                  <col style="width: 20%;">
+                  <col style="width: 20%;">
+                  <col style="width: 20%;">
+                  <col style="width: 20%;">
+                </colgroup>
+                <tbody>
+                  {% set semester_courses = planner_data.get(year, {}).get(term, []) %}
+                  {% for course in semester_courses %}
+                  <tr class="course-row">
+                    <td><input type="text" list="course-options" class="course-id-input" value="{{ course.course_title }}" /></td>
+                    <td class="course-name">{{ course.course_name or '' }}</td>
+                    <td class="course-area">{{ course.area or '' }}</td>
+                    <td class="course-comp">{{ course.comp or '' }}</td>
+                    <td class="course-time">{{ course.time or '' }}</td>
+                  </tr>
+                  {% endfor %}
+                  <tr class="course-row">
+                    <td><input type="text" list="course-options" class="course-id-input" placeholder="Course_ID" data-original-title=""/></td>
+                    <td class="course-name"></td>
+                    <td class="course-area"></td>
+                    <td class="course-comp"></td>
+                    <td class="course-time"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          {% endfor %}
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    function createRow(year, semester) {
+      const tr = document.createElement("tr");
+      tr.classList.add("course-row");
+
+      const td = document.createElement("td");
+      const input = document.createElement("input");
+      input.type = "text";
+      input.setAttribute("list", "course-options");
+      input.setAttribute("placeholder", "Course_ID");
+      input.classList.add("course-id-input");
+      td.appendChild(input);
+
+      const nameTd = document.createElement("td");
+      nameTd.classList.add("course-name");
+      const areaTd = document.createElement("td");
+      areaTd.classList.add("course-area");
+      const compTd = document.createElement("td");
+      compTd.classList.add("course-comp");
+      const timeTd = document.createElement("td");
+      timeTd.classList.add("course-time");
+
+      tr.appendChild(td);
+      tr.appendChild(nameTd);
+      tr.appendChild(areaTd);
+      tr.appendChild(compTd);
+      tr.appendChild(timeTd);
+
+      attachHandler(input, year, semester, tr);
+      return tr;
+    }
+
+    function attachHandler(input, year, semester, row) {
+      input.dataset.originalTitle = input.value.trim();
+
+      input.addEventListener("blur", async function () {
+        const newTitle = this.value.trim();
+        const oldTitle = this.dataset.originalTitle.trim();
+
+        // If input cleared → delete course
+        if (!newTitle && oldTitle) {
+          const res = await fetch("/planner/delete-course", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              course_title: oldTitle,
+              year,
+              semester
+            })
+          });
+
+          if (res.ok) {
+            row.remove();
+
+            const tbody = row.closest("tbody");
+            const inputs = tbody.querySelectorAll("input.course-id-input");
+            const anyNonEmpty = [...inputs].some(input => input.value.trim() !== "");
+
+            if (!anyNonEmpty) {
+              tbody.appendChild(createRow(year, semester));
+            }
+          } else {
+            alert("Failed to delete course");
+          }
+          return;
+        }
+
+        // Add new course
+        if (newTitle && !oldTitle) {
+          const response = await fetch("/planner/update-course", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ course_title: newTitle, year, semester })
+          });
+
+          if (response.ok) {
+            const data = await response.json();
+            row.querySelector(".course-name").innerText = data.course_name || '';
+            row.querySelector(".course-area").innerText = data.area || '';
+            row.querySelector(".course-comp").innerText = data.comp || '';
+            row.querySelector(".course-time").innerText = data.time || '';
+            this.dataset.originalTitle = data.course_title;
+
+            const tbody = row.closest("tbody");
+            const isLast = row === tbody.querySelector("tr:last-child");
+            if (isLast) {
+              tbody.appendChild(createRow(year, semester));
+            }
+          } else {
+            alert("Course not found");
+          }
+        }
+      });
+    }
+
+    document.querySelectorAll(".inner-term-table").forEach(table => {
+      const year = table.dataset.year;
+      const semester = table.dataset.semester;
+      const tbody = table.querySelector("tbody");
+
+      tbody.querySelectorAll("input.course-id-input").forEach(input => {
+        const row = input.closest("tr");
+        attachHandler(input, year, semester, row);
+      });
+    });
+  });
+</script>
+
+
+{% endblock %}

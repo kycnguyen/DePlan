@@ -1,0 +1,199 @@
+/* Base styling for DePlan - Warm & Gentle Theme */
+
+body {
+    background-color: #FFF8F0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #3A3A3A;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #F4A261;
+    padding: 12px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Buttons */
+button {
+    background-color: #E76F51;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: #F4A261;
+}
+
+/* Filter Panel */
+#filterPanel {
+    background-color: #FAF3EC;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 24px;
+}
+
+#filterPanel div label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+#filterPanel input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background-color: #FAD4AF;
+    color: #3A3A3A;
+    padding: 12px;
+    text-align: left;
+    font-size: 14px;
+}
+
+table td {
+    padding: 12px;
+    font-size: 13px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Flash messages */
+ul {
+    padding: 12px;
+    background-color: #FAD4AF;
+    border-radius: 6px;
+    margin: 10px 0;
+}
+
+li {
+    list-style: none;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #fff8f0;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+form label, form input, form button {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #e76f51;
+}
+
+/* Make sure both outer and inner tables align properly */
+#planner-grid {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#planner-grid col:first-child {
+    width: 100px; /* Year column */
+}
+
+#planner-grid colgroup col:nth-child(n+2) {
+    width: 9%; /* Fall/Spring columns */
+}
+
+#planner-grid th,
+#planner-grid td {
+    padding: 8px;
+    font-size: 14px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#planner-grid td:first-child,
+#planner-grid th:first-child {
+    width: 100px !important;
+    min-width: 100px;
+    max-width: 100px;
+    white-space: nowrap;
+}
+
+/* Inner term table */
+.inner-term-table {
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+.inner-term-table col {
+    width: 20%;
+}
+
+.inner-term-table td {
+    padding: 4px;
+    font-size: 13px;
+    border: none;
+}
+
+.inner-term-table input.course-id-input {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 13px;
+    padding: 4px;
+}
+
+

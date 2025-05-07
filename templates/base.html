@@ -1,0 +1,37 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}DePlan{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="{{ url_for('course_routes.dashboard') }}">Dashboard</a> |
+        {% if session.get('user_id') %}
+            <a href="{{ url_for('course_routes.profile') }}">Profile</a> |
+            <a href="{{ url_for('course_routes.planner') }}">Planner</a> |
+            <a href="{{ url_for('course_routes.catalog') }}">Course Catalog</a> |
+            <a href="{{ url_for('auth_routes.logout') }}">Logout</a>
+        {% else %}
+            <a href="{{ url_for('auth_routes.login') }}">Login</a> |
+            <a href="{{ url_for('auth_routes.register') }}">Register</a>
+        {% endif %}
+    </nav>
+    <hr>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul>
+          {% for message in messages %}
+            <li style="color:red">{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

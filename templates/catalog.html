@@ -1,0 +1,125 @@
+{% extends "base.html" %}
+{% block title %}Course Catalog{% endblock %}
+{% block content %}
+    <h1>Course Catalog</h1>
+    <button type="button" onclick="toggleFilters()">Filter</button>
+
+    <div id="filterPanel" style="display:none; margin-top: 10px;">
+        <form method="GET" action="/catalog">
+            <div style="display: flex; gap: 40px;">
+                <!-- Department -->
+                <div>
+                    <strong>Department:</strong><br>
+                    {% for dept in departments %}
+                        {% if dept in request.args.getlist('department') %}
+                            <label>
+                                <input type="checkbox" name="department" value="{{ dept }}" checked>
+                                {{ dept }}
+                            </label><br>
+                        {% else %}
+                            <label>
+                                <input type="checkbox" name="department" value="{{ dept }}">
+                                {{ dept }}
+                            </label><br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <!-- Area -->
+                <div>
+                    <strong>Area:</strong><br>
+                    {% for a in areas %}
+                        {% if a in request.args.getlist('area') %}
+                            <label>
+                                <input type="checkbox" name="area" value="{{ a }}" checked>
+                                {{ a }}
+                            </label><br>
+                        {% else %}
+                            <label>
+                                <input type="checkbox" name="area" value="{{ a }}">
+                                {{ a }}
+                            </label><br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <!-- Competency -->
+                <div>
+                    <strong>Competency:</strong><br>
+                    {% for c in competencies %}
+                        {% if c in request.args.getlist('competency') %}
+                            <label>
+                                <input type="checkbox" name="competency" value="{{ c }}" checked>
+                                {{ c }}
+                            </label><br>
+                        {% else %}
+                            <label>
+                                <input type="checkbox" name="competency" value="{{ c }}">
+                                {{ c }}
+                            </label><br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                <!-- Credit -->
+                <div>
+                    <strong>Credit:</strong><br>
+                    {% for cr in credits %}
+                        {% if cr|string in request.args.getlist('credit') %}
+                            <label>
+                                <input type="checkbox" name="credit" value="{{ cr }}" checked>
+                                {{ cr }}
+                            </label><br>
+                        {% else %}
+                            <label>
+                                <input type="checkbox" name="credit" value="{{ cr }}">
+                                {{ cr }}
+                            </label><br>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+
+            <br>
+            <button type="submit">Apply Filters</button>
+        </form>
+    </div>
+
+    <script>
+    function toggleFilters() {
+        const panel = document.getElementById("filterPanel");
+        panel.style.display = panel.style.display === "none" ? "block" : "none";
+    }
+    </script>
+
+    <hr>
+    <h2>Filtered Results</h2>
+
+    {% if courses %}
+        <table border="1">
+            <tr>
+                <th>Course Title</th>
+                <th>Course Name</th>
+                <th>Department</th>
+                <th>Area</th>
+                <th>Competency</th>
+                <th>Credit</th>
+                <th>Time</th>
+            </tr>
+            {% for course in courses %}
+            <tr>
+                <td>{{ course.course_title }}</td>
+                <td>{{ course.course_name }}</td>
+                <td>{{ course.department }}</td>
+                <td>{{ course.area }}</td>
+                <td>{{ course.competency }}</td>
+                <td>{{ course.credits }}</td>
+                <td>{{ course.time }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    {% else %}
+        <p>No courses found for the selected filters.</p>
+    {% endif %}
+{% endblock %}
+

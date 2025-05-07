@@ -1,0 +1,715 @@
+,department,course_title,course_name,credits,area,competency,time
+0,A S,AS102A,Heritage and Values,0.5,,,8:00-8:50 T
+1,A S,102LA,Leadership Lab,0.0,,,3:00-4:30 W
+4,A S,AS202A,Team & Leadership Fundamentals,0.5,,,9:00-9:50 T
+5,A S,202LA,Leadership Lab,0.0,,,3:00-4:30 W
+8,A S,AS302A,LeadingPeople&EffectiveComm,0.75,,,ARR
+9,A S,302LA,Leadership Lab,0.0,,,3:00-4:30 W
+12,A S,AS402A,"National Security, Leadership Responsibilities, and Commissioning Preparation",0.75,,,8:00-9:30 TR
+13,A S,402LA,Leadership Lab,0.0,,,3:00-4:30 W
+16,AFST,AFST100A,Intro Africana Studies,1.0,"PPD, SS",,2:20-3:50 TR
+18,AFST,AFST281A,History of the Black Atlantic,1.0,"PPD, SS",W,8:20-9:50 TR
+20,AFST,AFST290A,Tps:Gender Law and Womanism/African Feminism,1.0,,,10:00-11:30 TR
+22,AFST,AFST290B,Tps:African American Women Playwrights,1.0,"PPD, AH",W,2:20-3:50 TR
+24,AFST,AFST390A,AdvTps:Horror and Speculative Films from the Black Diaspora,1.0,"GL, AH",,2:20-3:50 MW
+25,AFST,390LA,Film Screening,0.0,,,7:00-9:00 PM T
+28,ANTH,ANTH151A,Human Cultures,1.0,SS,,8:20-9:50 TR
+30,ANTH,ANTH151B,Human Cultures,1.0,SS,,12:40-2:10 TR
+32,ANTH,ANTH151C,Human Cultures,1.0,SS,,2:20-3:50 TR
+34,ANTH,ANTH151PA,Human Cultures,1.0,"PPD, SS",,12:30-1:30 MWF
+36,ANTH,ANTH153A,Human Origins,1.0,SM,,9:10-10:10 MWF
+38,ANTH,ANTH251A,LatAmer&CaribbnCultures,1.0,"GL, SS",W,10:00-11:30 TR
+40,ANTH,ANTH261A,Archaeology of the Body,1.0,SS,Q,10:20-11:20 MWF
+42,ANTH,ANTH290A,Perspectives: Native Indiana,1.0,SS,,2:50-3:50 MWF
+44,ANTH,ANTH441A,Readings and Projects in Anthropology,0.25,,,ARR
+46,ANTH,ANTH452A,Senior Seminar,1.0,,S,12:40-2:10 TR
+48,ARTD,ARTD120A,Intro to Design Studies,1.0,AH,,8:20-9:50 TR
+50,ARTD,ARTD120B,Introduction to Design Studies,1.0,AH,,10:00-11:30 TR
+52,ARTD,ARTD291A,IntermedStudio:Design Studies Hybrid Practices,1.0,AH,,12:40-3:30 TR
+54,ARTD,ARTD391A,AdvDesign:Hybrid Practices,1.0,AH,,12:40-3:30 TR
+56,ARTD,ARTD495A,Design Studies Senior Project,1.0,,S,12:40-3:30 TR
+58,ARTH,ARTH131A,Early Art Hist:Before 1400 C.E,1.0,"GL, AH",,9:10-10:10 MWF
+60,ARTH,ARTH190A,"Tps:Art History: Ideas, Questions, and Methods Beyond Disciplines",1.0,AH,,12:30-1:30 MWF
+62,ARTH,ARTH190B,Tps:Global Catholic Art: 1500 to Present,1.0,"GL, AH",,2:20-3:50 MW
+64,ARTH,ARTH218A,Cathedral & Court:Gothic Art,1.0,"GL, AH",,12:40-2:10 TR
+66,ARTH,ARTH290A,Tps:Contemporary Queer and Feminist Art,1.0,AH,,10:00-11:30 TR
+68,ARTH,ARTH290C,Tps:Colonial Art and Visual Cultures in the Americas,1.0,"GL, AH",,2:20-3:50 TR
+70,ARTH,ARTH390A,AdvTps:Contemporary Queer & Feminist Art,1.0,AH,,10:00-11:30 TR
+72,ARTH,ARTH494A,Art History Seminar,1.0,,S,12:40-3:30 T
+74,ARTS,ARTS163A,Intro to Photography,1.0,AH,,8:30-11:20 TR
+76,ARTS,ARTS170A,Intro to Sculpture,1.0,AH,,12:40-3:30 TR
+78,ARTS,ARTS175A,Intro to Ceramics,1.0,AH,,8:30-11:20 TR
+80,ARTS,ARTS197SA,FYS:Photography and Social Justice,1.0,,,12:30-3:20 MW
+82,ARTS,ARTS198CA,IntroStudio:Peeler Cup Collective,0.25,AH,,ARR
+84,ARTS,ARTS257A,Intermediate Painting: Every Painter is a Thief,1.0,AH,,12:30-3:20 MW
+86,ARTS,ARTS264A,Intermediate Photography: Darkroom Experiments,1.0,AH,,8:30-11:20 MW
+88,ARTS,ARTS271A,Sculpture/Public Spaces,1.0,AH,,8:30-11:20 TR
+90,ARTS,ARTS298BA,IntermedStudio:Painting,1.0,AH,,ARR
+92,ARTS,ARTS298CA,IntermedStudio:Ceramics: Peeler Cup Collective,1.0,AH,,2:20-3:50 TR
+94,ARTS,ARTS298HA,IntermedStudio:Interdsc,0.5,AH,,ARR
+96,ARTS,ARTS357A,Advanced Painting: Every Painter is a Thief,1.0,AH,,12:30-3:20 MW
+98,ARTS,ARTS364A,Advanced Photography: Darkroom Experiments,1.0,AH,,8:30-11:20 MW
+100,ARTS,ARTS371A,Advanced Sculpture in Public Places,1.0,AH,,8:30-11:20 TR
+102,ARTS,ARTS398CA,AdvStudio:Ceramics: Peeler Cup Collective,1.0,AH,,2:20-3:50 TR
+104,ARTS,ARTS398GA,AdvStudio:User Interface Design and User Experience Design,1.0,AH,,ARR
+106,ARTS,ARTS398GB,AdvStudio:Animation Design,0.5,AH,,ARR
+108,ARTS,ARTS398HA,AdvStudio:Interdiscip,1.0,AH,,ARR
+110,ARTS,ARTS492A,Senior Projects II,1.0,,S,8:30-11:20 MW
+112,ASIA,ASIA480A,Asian Studies Sr Seminar,1.0,,S,7:00-9:50 PM M
+114,BIO,BIO101A,"Molecules, Genes & Cells",1.0,SM,,9:10-10:10 MWF
+115,BIO,101LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+118,BIO,BIO101B,"Molecules, Genes & Cells",1.0,SM,,10:20-11:20 MWF
+119,BIO,101LB,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+122,BIO,BIO101C,"Molecules, Genes & Cells",1.0,SM,,1:40-2:40 MWF
+123,BIO,101LC,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+126,BIO,BIO101D,"Molecules, Genes & Cells",1.0,SM,,2:50-3:50 MWF
+127,BIO,101LD,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+130,BIO,BIO102A,"Evolution,Organisms & Ecology",1.0,SM,,9:10-10:10 MWF
+131,BIO,102LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+134,BIO,BIO102B,"Evolution,Organisms & Ecology",1.0,SM,,10:20-11:20 MWF
+135,BIO,102LB,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+138,BIO,BIO102C,"Evolution,Organisms & Ecology",1.0,SM,,1:40-2:40 MWF
+139,BIO,102LC,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+142,BIO,BIO230A,Plant Biology,1.0,,,9:10-10:10 MWF
+143,BIO,230LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+146,BIO,BIO234A,Evolutionary Developmental Biology,1.0,SM,,10:20-11:20 MWF
+147,BIO,234LA,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+150,BIO,BIO241A,Intermediate Cellular Biology,1.0,,,12:30-1:30 MWF
+151,BIO,241LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+154,BIO,BIO295A,Practicum for Bio Tutors,0.5,,,ARR
+156,BIO,BIO315A,Molecular Biology,1.0,,,12:30-1:30 MWF
+157,BIO,315LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+160,BIO,BIO325A,Bioinformatics,1.0,,,2:50-3:50 MWF
+161,BIO,325LA,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+164,BIO,BIO344A,Ecological & Evolutionary Genetics,1.0,,,12:30-1:30 MWF
+166,BIO,BIO348A,Behavioral Ecology,1.0,,,2:50-3:50 MWF
+167,BIO,348LA,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+170,BIO,BIO361A,Immunology,1.0,,S,9:10-10:10 MWF
+171,BIO,361LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+174,BIO,BIO375A,Biostatistics,1.0,,Q,10:20-11:20 MWF
+175,BIO,375LA,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+178,BIO,BIO382A,Neurobiology,1.0,,,8:00-9:00 MWF
+179,BIO,382LA,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+182,BIO,BIO390A,Tps:Environmental Microbiology,1.0,,W,1:40-2:40 MWF
+183,BIO,390LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+186,BIO,BIO450A,Senior Seminar,0.5,,S,7:00-8:50 PM R
+188,BIO,BIO490A,Research Problems,0.0,,,ARR
+190,BIO,BIO490B,Research Problems,0.0,,,ARR
+192,BIO,BIO490C,Research Problems,0.0,,,ARR
+194,BIO,BIO490D,Research Problems,0.0,,,ARR
+196,BIO,BIO490E,Research Problems,0.0,,,ARR
+198,BIO,BIO490F,Research Problems,0.0,,,ARR
+200,BIO,BIO490G,Research Problems,0.0,,,ARR
+202,BIO,BIO490H,Research Problems,0.0,,,ARR
+204,BIO,BIO490J,Research Problems,0.0,,,ARR
+206,BIO,BIO490K,Research Problems,0.0,,,ARR
+208,BUSA,BUSA110A,Gateway to Business Analytics,1.0,SS,Q,9:10-10:10 MWF
+210,BUSA,BUSA110B,Gateway to Business Analytics,1.0,SS,Q,10:00-11:30 TR
+212,BUSA,BUSA110C,Gateway to Business Analytics,1.0,SS,Q,10:20-11:20 MWF
+214,BUSA,BUSA190A,Tps:GIS Basics Across Disciplines,1.0,SM,,2:20-3:50 TR
+216,BUSA,BUSA210A,Business Analytics II,1.0,SM,Q,12:40-2:10 TR
+218,BUSA,BUSA210B,Business Analytics II,1.0,SM,Q,2:20-3:50 TR
+220,BUSA,BUSA260A,Data Visualization in Tableau,1.0,,,10:00-11:30 TR
+222,BUSA,BUSA290A,Tps:The Ethics Project,1.0,,,8:20-9:50 TR
+224,BUSA,BUSA290B,Tps:Ethics and Business,1.0,,,2:20-3:50 TR
+226,BUSA,BUSA305A,Regression with Microdata,1.0,SM,,10:20-11:20 MWF
+228,BUSA,BUSA310A,Business Analytics III,1.0,,,9:10-10:10 MWF
+230,BUSA,BUSA331A,Financial Mathematics,1.0,,,10:00-11:30 TR
+232,BUSA,BUSA332A,Seminar in Financial Math,0.5,,,2:20-3:50 R
+234,BUSA,BUSA390A,Tps:Machine Learning for Healthcare,1.0,,,1:40-2:40 MWF
+236,BUSA,BUSA480A,Business Analytics Capstone,1.0,,S,2:50-3:50 MWF
+238,CHEM,CHEM120A,Struc/Prop Organic Mol,1.0,SM,,8:00-9:00 MWF
+239,CHEM,120LA,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+242,CHEM,CHEM120B,Struc/Prop Organic Mol,1.0,SM,,9:10-10:10 MWF
+243,CHEM,120LB,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+246,CHEM,CHEM130A,Struc/Prop Inorg Compds,1.0,SM,,9:10-10:10 MWF
+247,CHEM,130LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+250,CHEM,CHEM130B,Struc/Prop Inorg Compds,1.0,SM,,10:20-11:20 MWF
+251,CHEM,130LB,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+254,CHEM,CHEM170A,Stoich Calculations,0.25,,,10:20-11:20 MW
+256,CHEM,CHEM170B,Stoich Calculations,0.25,,,1:40-2:40 WF
+258,CHEM,CHEM240A,Struc/Func Biomolecules,1.0,SM,,9:10-10:10 MWF
+259,CHEM,240LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+262,CHEM,CHEM240B,Structure and Function of Biomolecules,1.0,SM,,10:20-11:20 MWF
+263,CHEM,240LB,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+266,CHEM,CHEM260A,Therm/Equil/Kinetics,1.0,SM,Q,8:00-9:00 MWF
+267,CHEM,260LA,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+270,CHEM,CHEM260B,Therm/Equil/Kinetics,1.0,SM,Q,12:30-1:30 MWF
+271,CHEM,260LB,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+274,CHEM,CHEM320A,Org Mech & Synthesis,1.0,,,10:20-11:20 MWF
+275,CHEM,320LA,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+278,CHEM,CHEM342A,Tps:Viruses & Public Health,1.0,SM,,9:10-10:10 MWF
+280,CHEM,CHEM343A,Advanced Biochemistry,1.0,,,12:30-1:30 MWF
+282,CHEM,CHEM351A,Chemometrics,0.5,,,1:40-2:40 WF
+284,CHEM,CHEM363A,Quantum Mechanics,0.5,,,8:00-9:00 MW
+286,CHEM,CHEM395A,Independent Study,0.0,,,ARR
+288,CHEM,CHEM395B,Independent Study,0.0,,,ARR
+290,CHEM,CHEM395C,Independent Study,0.0,,,ARR
+292,CHEM,CHEM395D,Independent Study,0.0,,,ARR
+294,CHEM,CHEM395E,Independent Study,0.0,,,ARR
+296,CHEM,CHEM395F,Independent Study,0.0,,,ARR
+298,CHEM,CHEM395G,Independent Study,0.0,,,ARR
+300,CHEM,CHEM395H,Independent Study,0.0,,,ARR
+302,CHEM,CHEM395J,Independent Study,0.0,,,ARR
+304,CHEM,CHEM405A,Thesis,0.5,,,ARR
+306,CHEM,CHEM440A,Biophysical Chemistry,1.0,,,2:50-3:50 MWF
+308,CHEM,CHEM450A,Method Development,0.5,,,1:40-2:30 M
+309,CHEM,450LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+312,CHEM,CHEM490A,Senior Capstone,0.5,,S,7:00-8:50 PM T
+314,CHEM,CHEM490B,Senior Capstone,0.5,,S,7:00-8:50 PM T
+316,CHEM,CHEM490C,Senior Capstone,0.5,,S,7:00-8:50 PM T
+318,CHIN,CHIN162A,Elementary Chinese II,1.0,LA,,9:10-10:10 MWF
+320,CHIN,CHIN262A,Intermediate Chinese II,1.0,LA,,10:20-11:20 MWF
+322,CHIN,CHIN461A,Advanced Readings and Projects,0.0,LA,,ARR
+324,CLST,CLST100A,Greek and Roman Mythology,1.0,AH,,10:20-11:20 MWF
+326,CLST,CLST154A,Ancient Roman World,1.0,"GL, AH",,1:40-2:40 MWF
+328,CLST,CLST258A,Greek and Roman Law,1.0,AH,,10:00-11:30 TR
+330,CLST,CLST263A,Archaeology of Greek Cities and Sanctuaries,1.0,"GL, AH",,12:40-2:10 TR
+332,CLST,CLST310A,Topics in Archaeology: Ancient North Africa,1.0,,S,8:20-9:50 TR
+334,CLST,CLST454A,Senior Seminar: Ancient North Africa,1.0,,S,8:20-9:50 TR
+336,COMM,COMM111A,Acting I,1.0,AH,,12:40-2:10 TR
+338,COMM,COMM123A,Public Speaking,1.0,,,10:00-11:30 TR
+340,COMM,COMM123B,Public Speaking,1.0,,,9:10-10:10 MWF
+342,COMM,COMM200A,Foundations/Comm Studies,1.0,,,12:30-1:30 MWF
+344,COMM,COMM200B,Foundations of Communication Studies,1.0,,,10:20-11:20 MWF
+346,COMM,COMM217A,Tps:Entertainment Design: Costume Design,1.0,,,2:20-3:50 TR
+348,COMM,COMM223A,Public Comm&Controversy,1.0,AH,,10:00-11:30 TR
+350,COMM,COMM225A,Interpersonal Comm,1.0,SS,,9:10-10:10 MWF
+352,COMM,COMM225B,Interpersonal Comm,1.0,SS,,10:20-11:20 MWF
+354,COMM,COMM228A,Foundations of Leadership,1.0,SS,,10:00-11:30 TR
+356,COMM,COMM233A,"Media, Culture & Society",1.0,,,2:20-3:50 TR
+358,COMM,COMM233B,"Media, Culture & Society",1.0,,,10:00-11:30 TR
+360,COMM,COMM235A,Electronic Journalism,1.0,,W,9:10-10:10 MWF
+362,COMM,COMM236A,TV Prod & Televisual Literacy,1.0,,,2:20-3:50 TR
+364,COMM,COMM291A,Tps:Education and the Language of the Black Dancing Body,1.0,,,10:00-11:30 TR
+366,COMM,COMM292AA,Interpersonal Project,0.5,,,ARR
+368,COMM,COMM292CA,Theatre Project,1.0,,,ARR
+370,COMM,COMM292CB,Theatre Project,1.0,,,ARR
+372,COMM,COMM315A,Tps:Latinx Theatre and Performance,1.0,,,12:40-2:10 TR
+374,COMM,COMM318A,Business of Performing Arts,1.0,,,12:40-2:10 TR
+376,COMM,COMM319A,"Writing for Stage, Screen & TV",1.0,AH,,2:20-3:50 MW
+378,COMM,COMM323A,History/Public Discourse,1.0,,,12:40-2:10 TR
+380,COMM,COMM334A,Media Criticism,1.0,,,12:40-2:10 TR
+382,COMM,COMM335A,Media Law,1.0,,,10:20-11:20 MWF
+384,COMM,COMM337A,Global Media,1.0,"GL, AH",,12:30-1:30 MWF
+386,COMM,COMM337B,Global Media,1.0,"GL, AH",,1:40-2:40 MWF
+388,COMM,COMM350A,Comm Research Methods,1.0,,Q,8:20-9:50 TR
+390,COMM,COMM450A,Sem:Podcasting: Technology and Culture,1.0,,S,2:20-3:50 TR
+392,COMM,COMM450B,"Sem:Performance on Stage, Performance in Life",1.0,,S,2:20-3:50 TR
+394,COMM,COMM450C,Sem:Communication & Sport,1.0,,S,12:30-3:20 W
+396,COMM,COMM450D,Sem:Representations of America,1.0,,S,8:20-9:50 MW
+398,CSC,CSC120A,Computer Science for All,1.0,SM,Q,10:20-11:20 MWF
+400,CSC,CSC121A,Computer Science I,1.0,SM,Q,12:30-1:30 MWF
+401,CSC,121LA,Laboratory - 1 Period,0.0,,,1:40-3:30 R
+404,CSC,CSC121B,Computer Science I,1.0,SM,Q,10:20-11:20 MWF
+405,CSC,121LB,Laboratory - 1 Period,0.0,,,9:40-11:30 R
+408,CSC,CSC125A,Principles of Software Development,1.0,,,8:00-9:00 MWF
+410,CSC,CSC125B,Principles of Software Development,1.0,,,9:10-10:10 MWF
+412,CSC,CSC125C,Principles of Software Development,1.0,,,9:10-10:10 MWF
+414,CSC,CSC231A,Computer Systems,1.0,,,8:20-9:50 TR
+416,CSC,CSC231B,Computer Systems,1.0,,,12:40-2:10 TR
+418,CSC,CSC235A,Data Structures,1.0,,,12:30-1:30 MWF
+420,CSC,CSC235B,Data Structures,1.0,,,1:40-2:40 MWF
+422,CSC,CSC236A,Algorithmic Foundations of Computation,1.0,,,1:40-2:40 MWF
+424,CSC,CSC330A,Artificial Intelligence,1.0,,,10:00-11:30 TR
+426,CSC,CSC330B,Artificial Intelligence,1.0,,,2:20-3:50 TR
+428,CSC,CSC430A,Computer Security,1.0,,,12:30-1:30 MWF
+430,CSC,CSC480A,Database & File Systems,1.0,,,2:20-3:50 TR
+432,CSC,CSC496A,Computer Science Topics: Mobile Development,1.0,,,10:20-11:20 MWF
+434,CSC,CSC496B,Computer Science Topics: Machine Learning,1.0,,,1:40-2:40 MWF
+436,CSC,CSC496D,Computer Science Topics: Mobile Development,1.0,,,2:50-3:50 MWF
+438,CSC,CSC496E,Computer Science Topics: Machine Learning,1.0,,,2:50-3:50 MWF
+440,CSC,CSC498A,Senior Project,1.0,,S,ARR
+442,CSC,CSC498B,Senior Project,1.0,,S,ARR
+444,ECON,ECON100A,Intro to Economics,1.0,SS,Q,9:10-10:10 MWF
+446,ECON,ECON100B,Intro to Economics,1.0,SS,Q,10:20-11:20 MWF
+448,ECON,ECON100C,Intro to Economics,1.0,SS,Q,12:30-1:30 MWF
+450,ECON,ECON100D,Intro to Economics,1.0,SS,Q,1:40-2:40 MWF
+452,ECON,ECON293A,Foundations of Corporate Finance,1.0,,,10:00-11:30 TR
+454,ECON,ECON293B,Foundations of Corporate Finance,1.0,,,2:20-3:50 TR
+456,ECON,ECON294A,Intermed Microeconomics,1.0,SS,Q,12:30-1:30 MWF
+458,ECON,ECON294B,Intermed Microeconomics,1.0,SS,Q,1:40-2:40 MWF
+460,ECON,ECON295A,Intermed Macroeconomics,1.0,SS,,1:40-2:40 MWF
+462,ECON,ECON295B,Intermed Macroeconomics,1.0,SS,,2:50-3:50 MWF
+464,ECON,ECON350A,Introduction to Econometrics,1.0,SM,Q,10:00-11:30 TR
+466,ECON,ECON350B,Introduction to Econometrics,1.0,SM,Q,12:40-2:10 TR
+468,ECON,ECON350C,Introduction to Econometrics,1.0,SM,Q,1:40-2:40 MWF
+470,ECON,ECON360A,Investment Analysis and Portfolio Management,1.0,,,12:30-1:30 MWF
+472,ECON,ECON360C,Investment Analysis and Portfolio Management,1.0,,,1:40-2:40 MWF
+474,ECON,ECON415A,Labor Economics,1.0,SS,,10:00-11:30 TR
+476,ECON,ECON450A,Econometrics,1.0,,,8:20-9:50 TR
+478,ECON,ECON470A,Money-Banking,1.0,,,10:20-11:20 MWF
+480,ECON,ECON480A,Seminar,1.0,,S,12:40-3:30 T
+482,ECON,ECON480B,Seminar,1.0,,S,12:40-3:30 R
+484,ECON,ECON485A,Independent Senior Thesis,0.5,,,ARR
+486,EDUC,EDUC170A,Foundations of Education,1.0,SS,,12:30-1:30 MWF
+488,EDUC,EDUC170B,Foundations of Education,1.0,SS,,2:20-3:50 TR
+490,EDUC,EDUC222A,Developmental Theories,1.0,SS,Q,10:00-11:30 TR
+492,EDUC,EDUC222B,Developmental Theories,1.0,SS,Q,2:20-3:50 TR
+494,EDUC,EDUC223A,Deconstructing Difference,1.0,"PPD, SS",,12:30-1:30 MWF
+496,EDUC,EDUC223B,Deconstructing Difference,1.0,"PPD, SS",,10:00-11:30 TR
+498,EDUC,EDUC290A,Tps:Education and the Language of the Black Dancing Body,1.0,,,10:00-11:30 TR
+500,EDUC,EDUC360A,The Political Economy of Schools,1.0,SS,W,10:20-11:20 MWF
+502,EDUC,EDUC390A,"Tps:Education, Empire, Eco-crisis, and Ethics",1.0,"GL, SS",,12:40-2:10 TR
+504,EDUC,EDUC412A,Directed Study,1.0,,,ARR
+506,EDUC,EDUC490A,Educ Studies Sr Seminar,1.0,,,12:30-3:20 W
+508,ENG,ENG115A,AcademicEnglishSeminarII,1.0,GL,,8:20-9:50 TR
+510,ENG,ENG115B,AcademicEnglishSeminarII,1.0,GL,,7:00-8:30 PM TR
+512,ENG,ENG130A,College Writing II,1.0,AH,,10:00-11:30 TR
+514,ENG,ENG141A,Reading World Literature,1.0,"GL, AH",,9:10-10:10 MWF
+516,ENG,ENG149B,Intro to Creative Wrtng,1.0,AH,,7:00-8:30 PM MW
+518,ENG,ENG149C,Intro to Creative Wrtng,1.0,AH,,2:20-3:50 TR
+520,ENG,ENG149D,Intro to Creative Wrtng,1.0,AH,,2:20-3:50 MW
+522,ENG,ENG149E,Intro to Creative Wrtng,1.0,AH,,2:20-3:50 WF
+524,ENG,ENG151A,"Reading Literature: Poetry, Fiction and Drama",1.0,AH,,9:10-10:10 MWF
+526,ENG,ENG171A,Lit:Intercultural Perspectives,1.0,"PPD, AH",,12:40-2:10 TR
+528,ENG,ENG251A,Writing in Lit Studies,1.0,AH,,9:10-10:10 MWF
+530,ENG,ENG252A,Children's Literature,1.0,"GL, AH",W,2:20-3:50 MW
+532,ENG,ENG255A,Tps:African American Women Playwrights,1.0,"PPD, AH",W,2:20-3:50 TR
+534,ENG,ENG255B,"Tps:Poet, Seeker, Lover, Friend",1.0,AH,W,2:50-3:50 MWF
+536,ENG,ENG255C,Tps:Viking Myths and Modern Myth-making,1.0,AH,W,12:30-1:30 MWF
+538,ENG,ENG268A,Latinx Literature,1.0,"PPD, AH",,8:20-9:50 TR
+540,ENG,ENG269A,LGBTQ+ Literature,1.0,AH,,2:20-3:50 MW
+542,ENG,ENG302A,Creative Writing II Fiction Tps: The Art of Revision,1.0,,,10:00-11:30 TR
+544,ENG,ENG321A,Crtv Non-Fiction Wrkshp,1.0,,,12:40-2:10 TR
+546,ENG,ENG343A,Creative Writing II: Dramatic Tps:Adaptation,1.0,,,12:40-3:30 R
+548,ENG,ENG363A,"Renaissance or Early Modern British Literature: Heart and Muse, Pipe and Trumpet",1.0,,,2:20-3:50 TR
+550,ENG,ENG398A,AdvTps:Horror and Speculative Films from the Black Diaspora,1.0,"GL, AH",,2:20-3:50 MW
+551,ENG,398LA,Film Screening,0.0,,,7:00-9:00 PM T
+554,ENG,ENG412A,Seminar in Writing,1.0,,S,10:00-11:30 TR
+556,ENG,ENG412B,Seminar in Writing,1.0,,S,12:40-2:10 TR
+558,ENG,ENG451A,Seminar in Literature (1900-present),1.0,,S,12:40-2:10 TR
+560,ENG,ENG460A,Ind Study:The Novel in World Literature,1.0,,,ARR
+562,ENG,ENG460B,Readings in Literature,1.0,,,ARR
+564,ETS,ETS291A,"Prindle Reading Course: Michael Blake, Justice, Mercy, and Migration",0.25,,,7:00-8:30 PM W
+566,ETS,ETS291B,"Prindle Reading Course:Caroline Levine, The Activist Humanist: Form and Method in the Climate Crisis",0.25,,,7:00-8:30 PM W
+568,ETS,ETS291C,"Prindle Reading Course:Patrick Devlin, The Enforcement of Morals",0.25,,,7:00-8:30 PM R
+570,ETS,ETS291D,"Prindle Reading Course:Larry Temkin, Being Good in a World of Need",0.25,,,7:00-8:30 PM T
+572,ETS,ETS291E,"Prindle Reading Course:Will Steacy, Photos Not Taken: A Collection of Photographer's Essays",0.25,,,7:00-8:30 PM W
+574,FIN,FIN220A,Introduction to Financial Accounting,1.0,,,9:10-10:10 MWF
+576,FIN,FIN220B,Introduction to Financial Accounting,1.0,,,12:30-1:30 MWF
+578,FIN,FIN220C,Introduction to Financial Accounting,1.0,,,8:20-9:50 TR
+580,FIN,FIN220D,Introduction to Financial Accounting,1.0,,,10:00-11:30 TR
+582,FIN,FIN280A,Managerial Accounting,1.0,,,2:20-3:50 TR
+584,FIN,FIN291A,Tps:Financial Markets and Institutions,1.0,,,10:00-11:30 TR
+586,FIN,FIN291B,Tps:Financial Markets and Institutions,1.0,,,12:40-2:10 TR
+588,FIN,FIN291C,Tps:Technical Analysis and Stock Trading,1.0,,,ARR
+590,FIN,FIN293C,Foundations of Corporate Finance,1.0,,,10:00-11:30 TR
+592,FIN,FIN293D,Foundations of Corporate Finance,1.0,,,2:20-3:50 TR
+594,FIN,FIN360B,Investment Analysis and Portfolio Management,1.0,,,12:30-1:30 MWF
+596,FIN,FIN360D,Investment Analysis and Portfolio Management,1.0,,,1:40-2:40 MWF
+598,FLME,FLME100A,Intro to Film and Media Arts,1.0,AH,,12:40-2:10 TR
+600,FLME,FLME100B,Introduction to Film and Media Arts,1.0,AH,,12:30-1:30 MWF
+602,FLME,FLME205A,Tps:Genre Writing for the Screen in the Brief,1.0,AH,,10:00-11:30 TR
+604,FLME,FLME241A,Tps:Ecological Thinking through Film and Media,1.0,AH,,10:00-11:30 TR
+606,FLME,FLME245A,Experimental Animation (Production),1.0,AH,,12:40-3:30 T
+608,FLME,FLME250A,Global Cinema:Holocaust and Exile on Film,1.0,"GL, AH",S,12:40-2:10 TR
+609,FLME,250LA,Film Screening,0.0,,,7:00-9:00 PM T
+612,FLME,FLME310A,Film and Media Theory,1.0,AH,,12:40-2:10 TR
+614,FLME,FLME311A,"Tps:Writing for Stage, Screen & TV",1.0,AH,,2:20-3:50 MW
+616,FLME,FLME321A,AdvTps:Global Media,1.0,"GL, AH",,12:30-1:30 MWF
+618,FLME,FLME321B,AdvTps:Global Media,1.0,"GL, AH",,1:40-2:40 MWF
+620,FLME,FLME321C,AdvTps:Horror and Speculative Films from the Black Diaspora,1.0,"GL, AH",,2:20-3:50 MW
+621,FLME,321LC,Film Screening,0.0,,,7:00-9:00 PM T
+624,FLME,FLME420A,Ind Study:Animation,0.5,,,ARR
+626,FLME,FLME420B,Ind Study:New Media Theory and Practice,1.0,,,ARR
+628,FLME,FLME430A,SeniorCapstoneProjectSeminar,1.0,AH,S,7:00-9:50 PM R
+630,FREN,FREN102A,Elementary French II,1.0,LA,,9:10-10:10 MWF
+632,FREN,FREN102B,Elementary French II,1.0,LA,,10:20-11:20 MWF
+634,FREN,FREN102C,Elementary French II,1.0,LA,,12:30-1:30 MWF
+636,FREN,FREN206A,Tps:Engaging Conversations and Effective Communication (taught in French),1.0,"GL, LA",,10:20-11:20 MWF
+638,FREN,FREN306A,AdvTps:Poetry (taught in French),1.0,"GL, LA",,9:10-10:10 MWF
+640,FREN,FREN306B,AdvTps:Poetry (taught in French),1.0,"GL, LA",,ARR
+642,FREN,FREN420A,Senior Seminar,1.0,LA,S,12:30-1:30 MWF
+644,GEOS,GEOS105A,Earthquakes & Volcanoes,1.0,SM,,10:20-11:20 MWF
+646,GEOS,GEOS110A,Earth & the Environment,1.0,SM,Q,1:40-2:40 MWF
+647,GEOS,110LA,Laboratory - 1 Period,0.0,,,2:00-3:50 R
+650,GEOS,GEOS190A,Tps:GIS Basics Across Disciplines,1.0,SM,,2:20-3:50 TR
+652,GEOS,GEOS315A,Map Interpretation,1.0,SM,,10:20-11:20 MWF
+653,GEOS,315LA,Laboratory - 1 Period,0.0,,,8:00-9:50 R
+656,GEOS,GEOS320A,Petrology,1.0,,,12:30-1:30 MWF
+657,GEOS,320LA,Laboratory - 1 Period,0.0,,,9:40-11:30 T
+660,GEOS,GEOS470A,Readings in Geology,0.0,,,ARR
+662,GEOS,GEOS480A,Problems in Geology,0.5,,,ARR
+664,GEOS,GEOS490A,Research Thesis,0.0,,,ARR
+666,GLH,GLH101A,Intro to Global Health,1.0,GL,,10:00-11:30 TR
+668,GLH,GLH101B,Intro to Global Health,1.0,GL,,12:40-2:10 TR
+670,GLH,GLH301A,Practicum Global Health,0.5,,,2:20-3:50 T
+672,GLH,GLH342A,Tps:Cases in Epidemiology,1.0,,Q,10:20-11:20 MWF
+674,GLH,GLH342B,Tps:Cases in Epidemiology,1.0,,Q,12:30-1:30 MWF
+676,GLH,GLH342C,Tps:Project Development and Funding for Health in Uganda,1.0,,,12:40-2:10 TR
+678,GLH,GLH395A,Ind Study:Building Community Partnerships for Health Equity,1.0,,,ARR
+680,GLH,GLH401A,Senior Seminar in Global Health,1.0,,S,7:00-9:50 PM W
+682,GRK,GRK102A,Intro/Ancient Greek II,1.0,LA,,10:20-11:20 MWF
+684,GRK,GRK205A,Greek Prose and Poetry,1.0,LA,,9:10-10:10 MWF
+686,GRMN,GRMN112A,Elementary German II,1.0,LA,,9:10-10:10 MWF
+688,GRMN,GRMN112B,Elementary German II,1.0,LA,,10:20-11:20 MWF
+690,GRMN,GRMN195A,Tps:German Fairy Tales and other fantastic stories (taught in English),1.0,"GL, AH",,2:50-3:50 MWF
+692,GRMN,GRMN211A,Intermediate German I,1.0,LA,,1:40-2:40 MWF
+694,GRMN,GRMN212A,Intermediate German II,1.0,LA,,1:40-2:40 MWF
+696,GRMN,GRMN295A,Tps:Holocaust and Exile on Film (taught in English),1.0,"GL, AH",S,12:40-2:10 TR
+697,GRMN,295LA,Film Screening,0.0,,,7:00-9:00 PM T
+700,GRMN,GRMN306A,German Studies Through The Disciplines,1.0,LA,,ARR
+702,GRMN,GRMN314A,Tps:Kopernikus zu KI: Interpretationen von Technik/Wissenschaft,1.0,"GL, LA",,1:40-2:40 MWF
+704,GRMN,GRMN415A,Sem:Kopernikus zu KI: Interpretationen von Technik/Wissenschaft,1.0,"GL, LA",S,1:40-2:40 MWF
+706,HISP,HISP132A,Intro/Spanish-SpeakingWorld II,1.0,LA,,10:20-11:20 MWF
+708,HISP,HISP132B,Intro/Spanish-SpeakingWorld II,1.0,LA,,12:40-2:10 TR
+710,HISP,HISP132C,Introduction to the Spanish-Speaking World II,1.0,LA,,12:30-1:30 MWF
+712,HISP,HISP140A,Spanish-SpeakingWrld:Intensive,1.0,LA,,10:20-11:20 MWF
+714,HISP,HISP140B,The Spanish-Speaking World: Intensive Level,1.0,LA,,12:30-1:30 MWF
+716,HISP,HISP231A,Topics/Span-Speaking World I,1.0,LA,,12:30-1:30 MWF
+718,HISP,HISP232A,Topics/Span-Speaking World II,1.0,LA,,10:20-11:20 MWF
+720,HISP,HISP232B,Topics/Span-Speaking World II,1.0,LA,,2:20-3:50 TR
+722,HISP,HISP295A,"Tps:Healthcare Inequalities in Bolivia: Access, Gender, Ethnicity, and Geography",1.0,,,ARR
+724,HISP,HISP330A,Orality in the Spanish-Speaking World,1.0,"GL, LA",,2:20-3:50 MW
+726,HISP,HISP332A,Literacy in the Spanish-Speaking World,1.0,LA,,ARR
+728,HISP,HISP335A,Introduction to Hispanic Literature,1.0,"GL, AH",,2:20-3:50 MW
+730,HISP,HISP390A,AdvTps:Marianismo y Machismo,1.0,LA,,2:20-3:50 MW
+732,HISP,HISP430A,Advanced Composition in Spanish,1.0,LA,,ARR
+734,HISP,HISP456A,Hispanic Seminar,1.0,LA,S,ARR
+736,HIST,HIST100A,Historical Encounters: Muhammad Ali,1.0,AH,,2:20-3:50 TR
+738,HIST,HIST100B,Historical Encounters: Empire of Sport,1.0,AH,,8:20-9:50 TR
+740,HIST,HIST100C,Historical Encounters: Land of Lincoln,1.0,AH,,1:40-2:40 MWF
+742,HIST,HIST100D,Historical Encounters: Sex & Society in Modern America,1.0,AH,,10:00-11:30 TR
+744,HIST,HIST200A,Topics: War on Drugs,1.0,,W,7:00-8:30 PM TR
+746,HIST,HIST206A,History of Mexico,1.0,SS,,10:20-11:20 MWF
+748,HIST,HIST226A,People and Politics in Modern Europe,1.0,"GL, AH",,9:10-10:10 MWF
+750,HIST,HIST232A,19th&20thCenturyBritain,1.0,AH,,2:20-3:50 MW
+752,HIST,HIST244A,"Germany from Unification to Unification, 1870-1989",1.0,AH,W,12:30-1:30 MWF
+754,HIST,HIST265A,20th-Century U.S.,1.0,AH,,12:40-2:10 TR
+756,HIST,HIST281A,History of the Black Atlantic,1.0,"PPD, SS",W,8:20-9:50 TR
+758,HIST,HIST295A,History Today: Debates and Practices,1.0,,,10:20-11:20 MWF
+760,HIST,HIST300A,"Topics: History of Science, Technology, and Medicine in the Global South",1.0,"GL, AH",,2:20-3:50 MW
+762,HIST,HIST300B,Topics: Social Media and Social Movements in Africa,1.0,AH,,10:00-11:30 TR
+764,HIST,HIST300C,"Topics: Jagged Edge of Empire: Frontiers in East Asia, c. 1600 - present",1.0,,,12:40-2:10 TR
+766,HIST,HIST375A,U.S. Women's Social and Political Movements,1.0,,S,2:20-3:50 TR
+768,HIST,HIST490A,Seminar,1.0,,,ARR
+770,HONR,HONR122A,Rethinking Environment,1.0,,,2:20-3:50 TR
+772,HONR,HONR172A,MediaFellowsColloquiumII,1.0,,,2:20-3:50 MW
+774,HONR,HONR185A,Business & the Liberal Arts,0.5,,,10:00-11:30 T
+776,HONR,HONR185B,Business & the Liberal Arts,0.5,,,10:00-11:30 R
+778,HONR,HONR200A,"Honor Scholar Reading Course:Alain de Botton, The Consolations of Philosophy",0.25,,,7:00-8:30 PM W
+780,HONR,HONR200B,"Honor Scholar Reading Course:Mark Twain, Huckleberry Finn and Percival Everett, James: A Novel",0.25,,,7:00-8:30 PM R
+782,HONR,HONR200C,"Honor Scholar Reading Course:John Milton, Paradise Lost",0.25,,,7:00-8:30 PM T
+784,HONR,HONR200D,"Honor Scholar Reading Course:Alice Markham-Cantor, The Once and Future Witch Hunt",0.25,,,7:00-8:30 PM M
+786,HONR,HONR200E,"Honor Scholar Reading Course:Bethany Klein, Selling Out: Culture, Commerce and Popular Music",0.25,,,7:00-8:30 PM T
+788,HONR,HONR200F,"Honor Scholar Reading Course:Shannon Steen, The Creativity Complex: Art, Tech, and the Seduction of an Idea",0.25,,,7:00-8:30 PM R
+790,HONR,HONR300AA,HoScho AH Sem:Interpreting Science and Technology in the Modern World,1.0,AH,,12:30-1:30 MWF
+792,HONR,HONR300AB,HoScho AH Sem:Social Media and Social Movements in Africa,1.0,AH,,10:00-11:30 TR
+794,HONR,HONR300BA,HoScho SM Sem:Food Systems and Sustainabililty,1.0,SM,,2:20-3:50 MW
+796,HONR,HONR300BB,HoScho SM Sem: Statistical Model Analysis,1.0,SM,Q,9:10-10:10 MWF
+798,HONR,HONR300BC,HoScho SM Sem:Viruses & Public Health,1.0,SM,,9:10-10:10 MWF
+800,HONR,HONR300BD,HoScho SM Sem:Molecular Motors,1.0,SM,,7:00-8:30 PM MW
+802,HONR,HONR300CA,HoScho SS Sem:Words at Work in the World: An Introduction to Applied Linguistics,1.0,SS,W,12:40-2:10 TR
+804,HONR,HONR300CB,HoScho SS Sem:Access to Justice and Poverty Law,1.0,SS,,7:00-8:30 PM MW
+806,HONR,HONR300CC,HoScho SS Sem:Surveillance Capitalism and Social Control,1.0,SS,,10:00-11:30 TR
+808,HONR,HONR310A,Mgmt Rdgs/Business Wrtgs,1.0,,,ARR
+810,HONR,HONR320AA,Supervised Internship - Mgmt,2.0,,,ARR
+812,HONR,HONR320BA,Supervised Internship - Media,2.0,,,ARR
+814,HONR,HONR370A,Media Readings,1.0,,,ARR
+816,HONR,HONR400A,Mgmt Fellows Sr Seminar,1.0,,,12:40-3:30 T
+818,HONR,HONR401A,Honor Schol Sr Tutorial,1.0,,,ARR
+820,HONR,HONR401B,Honor Scholar Senior Tutorial,1.0,,,ARR
+822,HONR,HONR402A,Honor Schol Sr Tutorial,1.0,,,ARR
+824,HONR,HONR402B,Honor Schol Sr Tutorial,1.0,,,ARR
+826,HONR,HONR402C,Honor Schol Sr Tutorial,1.0,,,ARR
+828,HONR,HONR402D,Honor Schol Sr Tutorial,1.0,,,ARR
+830,HONR,HONR402E,Honor Schol Sr Tutorial,1.0,,,ARR
+832,HONR,HONR402F,Honor Schol Sr Tutorial,1.0,,,ARR
+834,HONR,HONR402G,Honor Schol Sr Tutorial,1.0,,,ARR
+836,HONR,HONR402H,Honor Schol Sr Tutorial,1.0,,,ARR
+838,HONR,HONR402J,Honor Schol Sr Tutorial,1.0,,,ARR
+840,HONR,HONR402K,Honor Schol Sr Tutorial,1.0,,,ARR
+842,HONR,HONR402M,Honor Schol Sr Tutorial,1.0,,,ARR
+844,HONR,HONR402N,Honor Schol Sr Tutorial,1.0,,,ARR
+846,HONR,HONR402P,Honor Schol Sr Tutorial,1.0,,,ARR
+848,HONR,HONR402Q,Honor Schol Sr Tutorial,1.0,,,ARR
+850,HONR,HONR402R,Honor Schol Sr Tutorial,1.0,,,ARR
+852,HONR,HONR402S,Honor Schol Sr Tutorial,1.0,,,ARR
+854,HONR,HONR402T,Honor Schol Sr Tutorial,1.0,,,ARR
+856,HONR,HONR402U,Honor Schol Sr Tutorial,1.0,,,ARR
+858,HONR,HONR402V,Honor Schol Sr Tutorial,1.0,,,ARR
+860,HONR,HONR402W,Honor Schol Sr Tutorial,1.0,,,ARR
+862,HONR,HONR402X,Honor Schol Sr Tutorial,1.0,,,ARR
+864,HONR,HONR402Y,Honor Schol Sr Tutorial,1.0,,,ARR
+866,HONR,HONR402Z,Honor Schol Sr Tutorial,1.0,,,ARR
+868,HONR,HONR422A,Envir Fellows Senior Sem,1.0,,,2:20-3:50 TR
+870,HONR,HONR470A,Media Fellows Sr Sem I,1.0,,,7:00-9:50 PM W
+872,HONR,HONR480A,Global Studies Fellows Senior Capstone Course,0.5,,,ARR
+874,ITAL,ITAL172A,Elementary Italian II,1.0,LA,,10:20-11:20 MWF
+876,ITAL,ITAL172B,Elementary Italian II,1.0,LA,,12:30-1:30 MWF
+878,ITAL,ITAL172C,Elementary Italian II,1.0,LA,,1:40-2:40 MWF
+880,ITAL,ITAL272A,Intermediate Italian II,1.0,LA,,8:00-9:00 MWF
+882,ITAL,ITAL285A,"Tps:Venice, Florence, Rome: History, Art and Travel on the Grand Tour of Italy",1.0,"GL, AH",S,12:30-1:30 MWF
+884,ITAL,ITAL376A,Italian Through Film,1.0,"GL, LA",,9:10-10:10 MWF
+886,ITAL,ITAL470A,Readings and Projects in Italian,0.5,LA,,ARR
+888,JAPN,JAPN152A,Elementary Japanese II,1.0,LA,,12:30-1:30 MWF
+890,JAPN,JAPN152B,Elementary Japanese II,1.0,LA,,1:40-2:40 MWF
+892,JAPN,JAPN252A,Intermediate Japanese II,1.0,LA,,2:50-3:50 MWF
+894,JAPN,JAPN451A,Adv.Rdgs & Proj in Japanese,1.0,LA,,ARR
+896,KINS,KINS100A,Intro to Kinesiology,1.0,SM,,1:40-2:40 MWF
+897,KINS,100LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+900,KINS,KINS256A,HumanAnatomyPhysiologyII,1.0,SM,,10:20-11:20 MWF
+901,KINS,256LA,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+904,KINS,KINS290A,Tps:Physical Activity and Health throughout the Lifespan,1.0,,,2:50-3:50 MWF
+906,KINS,KINS290B,Tps:Medical Terminology,0.5,,,ARR
+908,KINS,KINS309A,Biomechanics,1.0,,,1:40-2:40 MWF
+910,KINS,KINS330A,Exercise Testing and Prescription,1.0,,S,8:00-9:00 MWF
+911,KINS,330LA,Laboratory - 1 Period,0.0,,,8:30-11:20 T
+914,KINS,KINS353A,Physiology of Exercise,1.0,,,9:10-10:10 MWF
+915,KINS,353LA,Laboratory - 1 Period,0.0,,,12:40-3:30 T
+918,KINS,KINS420A,Environmental Physiology,1.0,,S,12:30-1:30 MWF
+920,KINS,KINS491A,Projects in Kinesiology,0.5,,,ARR
+922,LACS,LACS100A,Intro to Latin American and Caribbean Studies,1.0,GL,,12:30-1:30 MWF
+924,LAT,LAT124A,Elementary Latin II,1.0,LA,,8:00-9:00 MWF
+926,LAT,LAT124B,Elementary Latin II,1.0,LA,,9:10-10:10 MWF
+928,LAT,LAT331A,Readings in Latin Prose,1.0,LA,,12:30-1:30 MWF
+930,LEAD,LEAD228A,Foundations of Leadership,1.0,SS,,10:00-11:30 TR
+932,LEAD,LEAD333A,Ethical Perspectives for Leadership,1.0,SS,,12:40-2:10 TR
+934,LEAD EXPA,LEADEXPA,EXP:Leadership Development in Higher Education,0.5,,,ARR
+936,MATH,MATH123B,Computational Discrete Math,1.0,SM,Q,10:20-11:20 MWF
+938,MATH,MATH136A,Calculus with Review II,1.0,SM,Q,12:30-1:30 MWF
+940,MATH,MATH141A,Stats for Professionals,1.0,SM,Q,10:20-11:20 MWF
+942,MATH,MATH141B,Stats for Professionals,1.0,SM,Q,12:30-1:30 MWF
+944,MATH,MATH151A,Calculus I,1.0,SM,Q,1:40-2:40 MWF
+946,MATH,MATH151B,Calculus I,1.0,SM,Q,2:50-3:50 MWF
+948,MATH,MATH151C,Calculus I,1.0,SM,Q,9:10-10:10 MWF
+950,MATH,MATH152A,Calculus II,1.0,SM,Q,1:40-2:40 MWF
+952,MATH,MATH152B,Calculus II,1.0,SM,Q,2:50-3:50 MWF
+954,MATH,MATH223A,Foundations of Advanced Math,1.0,SM,Q,12:40-2:10 TR
+956,MATH,MATH247A,Mathematical Statistics,1.0,SM,Q,1:40-2:40 MWF
+958,MATH,MATH251A,Calculus III,1.0,SM,Q,10:00-11:30 TR
+960,MATH,MATH270A,Linear Algebra,1.0,,W,8:00-9:00 MWF
+962,MATH,MATH331A,Financial Mathematics,1.0,,,10:00-11:30 TR
+964,MATH,MATH332A,Seminar in Financial Math,0.5,,,2:20-3:50 R
+966,MATH,MATH341A,StatisticalModelAnalysis,1.0,SM,Q,9:10-10:10 MWF
+968,MATH,MATH348A,Intro to Statistical Computing,1.0,SM,,7:00-8:30 PM MW
+970,MATH,MATH363A,Differential Equations,1.0,,,10:20-11:20 MWF
+972,MATH,MATH371A,Algebraic Structures,1.0,,,12:30-1:30 MWF
+974,MATH,MATH494A,Actuarial Science Case Studies,1.0,,S,12:40-2:10 TR
+976,MATH,MATH495A,Seminar,1.0,,S,12:40-2:10 TR
+978,MSST,MSST493A,Museum Studies Capstone,0.5,,,ARR
+980,MUS,MUS001A,Concert Attendance,0.0,,,ARR
+982,MUS,MUS102A,Exploring Music in History and Culture,1.0,AH,,2:20-3:50 TR
+984,MUS,MUS110A,Intro to Mus. Technology,0.5,AH,,8:00-8:50 TR
+986,MUS,MUS141A,Music Theory and Musicianship II,1.0,,,12:30-1:30 MWF
+988,MUS,MUS171A,Beginning Ballet I,0.5,AH,,10:00-10:50 TR
+990,MUS,MUS175A,Beginning Jazz Dance I,0.5,AH,,2:20-3:10 TR
+992,MUS,MUS181A,Symphonic Band,0.25,AH,,4:00-5:30 TR
+994,MUS,MUS193A,French Diction/Singers,0.5,,,12:40-1:30 TR
+996,MUS,MUS211A,Theory III,0.75,AH,,9:10-10:00 MWF
+998,MUS,MUS221A,Musicianship III,0.5,AH,,12:30-1:20 MW
+1000,MUS,MUS251A,Percussion Techniques,0.5,,,2:50-3:50 MWF
+1002,MUS,MUS255A,Instru/Choral Mus.Ed.Lab,0.0,,,2:20-3:20 TR
+1004,MUS,MUS263A,Mus-Stdnts w/DiverseNeed,0.75,,,8:20-9:50 TR
+1006,MUS,MUS265A,History Western Music I,1.0,AH,,1:40-2:40 MWF
+1008,MUS,MUS266A,History Western Music II,1.0,AH,,1:40-2:40 MWF
+1010,MUS,MUS272AA,Large Instrumental Ensemble - Full Rotation,0.5,AH,,4:00-5:30 MWF
+1012,MUS,MUS272BA,Large Instrumental Ensemble - Orchestra,0.25,AH,,4:00-5:30 MWF
+1014,MUS,MUS272CA,Large Instrumental Ensemble - Band,0.25,AH,,4:00-5:30 MWF
+1016,MUS,MUS272DA,Large Instrumental Ensemble - Jazz Ensemble,0.25,AH,,4:00-5:30 MWF
+1018,MUS,MUS274A,Putnam County Festival Choir,0.25,,,7:00-9:00 PM T
+1020,MUS,MUS276AA,Vox Animae,0.5,AH,,4:00-4:50 MWR
+1021,MUS,276LA,Vox Animae Lab,0.0,,,7:00-9:00 PM T
+1024,MUS,MUS276BA,Vox Animae,0.25,AH,,4:00-4:50 MWR
+1026,MUS,MUS277AA,Chamber Singers,0.5,AH,,5:00-5:50 MWR
+1027,MUS,277LA,Chamber Singers Lab,0.0,,,7:00-9:00 PM T
+1030,MUS,MUS277BA,Chamber Singers,0.25,AH,,5:00-5:50 MWR
+1032,MUS,MUS280A,Topics in Music Technology: Digital Music Production,0.5,,,9:10-10:10 MW
+1034,MUS,MUS282A,Music for the Stage,0.25,AH,,10:00-11:30 TR
+1036,MUS,MUS289AA,General Chamber Music,0.25,AH,,ARR
+1038,MUS,MUS289HA,Horn Ensemble,0.25,AH,,ARR
+1040,MUS,MUS289JA,Jazz Combos,0.25,AH,,ARR
+1042,MUS,MUS289JB,Jazz Combos,0.25,AH,,ARR
+1044,MUS,MUS289JC,Jazz Combos,0.25,AH,,ARR
+1046,MUS,MUS289NA,Piano Ensemble,0.25,AH,,ARR
+1048,MUS,MUS289NB,Piano Ensemble,0.25,AH,,ARR
+1050,MUS,MUS289PA,Percussion Ensemble,0.25,AH,,ARR
+1052,MUS,MUS289SA,Saxophone Ensemble,0.25,AH,,ARR
+1054,MUS,MUS310A,Building Musical Lives and Communities,1.0,,,10:20-11:20 MWF
+1056,MUS,MUS360A,Conducting I,0.5,,,10:00-10:50 TR
+1058,MUS,MUS362AA,Conducting II (Instr.),0.5,,,ARR
+1060,MUS,MUS380A,21CM Topics: Composition,0.5,,,8:00-8:50 MW
+1062,MUS,MUS380B,21CM Topics: Black Choral Music,0.5,,,12:30-1:20 MW
+1064,MUS,MUS381A,Elective Recital 30-min,0.25,,,ARR
+1066,MUS,MUS385A,Junior Recital,0.25,,,ARR
+1068,MUS,MUS390A,Topics: Women in Western Music,1.0,PPD,W,9:10-10:10 MWF
+1070,MUS,MUS450A,Seminar,1.0,,S,2:50-3:50 MWF
+1072,MUS,MUS451A,Student Teaching in Music,2.0,,,ARR
+1074,MUS,MUS452A,SrSeminarMusicEducators,1.0,,S,ARR
+1076,MUS,MUS481A,Elective Recital 60-min,0.25,,,ARR
+1078,MUS,MUS485A,Senior Recital,0.25,,,ARR
+1080,MUS,MUS900A,Beginning Class Piano (CLA),0.25,AH,,2:20-3:10 TR
+1082,MUS,MUS900B,Beginning Class Piano (CLA),0.25,AH,,7:00-8:50 PM M
+1084,MUS,MUS904A,Class Piano IV,0.25,,,9:00-9:50 TR
+1086,MUS,MUS904B,Class Piano IV,0.25,,,10:00-10:50 TR
+1088,MUS,MUS907A,Beginning Folk Guitar I,0.25,AH,,12:40-1:30 TR
+1090,MUS BASA,MUSBASA,String Bass,0.0,AH,,ARR
+1092,MUS BMEA,MUSBMEA,Oboe/Bassoon,0.25,AH,,ARR
+1094,MUS BSNA,MUSBSNA,Bassoon,0.0,AH,,ARR
+1096,MUS CLOA,MUSCLOA,Violoncello,0.0,AH,,ARR
+1098,MUS CLRA,MUSCLRA,Clarinet,0.0,AH,,ARR
+1100,MUS CMPA,MUSCMPA,Composition,0.0,AH,,ARR
+1102,MUS EUPA,MUSEUPA,Euphonium,0.0,AH,,ARR
+1104,MUS FLTA,MUSFLTA,Flute,0.0,AH,,ARR
+1106,MUS GUIA,MUSGUIA,Folk Guitar,0.0,AH,,ARR
+1108,MUS GUIJA,MUSGUIJA,Jazz Guitar,0.0,AH,,ARR
+1110,MUS HRNA,MUSHRNA,Horn,0.0,AH,,ARR
+1112,MUS HRPA,MUSHRPA,Harp,0.0,AH,,ARR
+1114,MUS IMPRA,MUSIMPRA,Applied Improvisation,0.0,AH,,ARR
+1116,MUS OBOA,MUSOBOA,Oboe,0.0,AH,,ARR
+1118,MUS PNOA,MUSPNOA,Piano,0.0,AH,,ARR
+1120,MUS PRCA,MUSPRCA,Percussion,0.0,AH,,ARR
+1122,MUS SAXA,MUSSAXA,Saxophone,0.0,AH,,ARR
+1124,MUS TBAA,MUSTBAA,Tuba,0.0,AH,,ARR
+1126,MUS TBNA,MUSTBNA,Trombone,0.0,AH,,ARR
+1128,MUS TPTA,MUSTPTA,Trumpet,0.0,AH,,ARR
+1130,MUS VLAA,MUSVLAA,Viola,0.0,AH,,ARR
+1132,MUS VLNA,MUSVLNA,Violin,0.0,AH,,ARR
+1134,MUS VOCA,MUSVOCA,Voice,0.0,AH,,ARR
+1136,MUS VOCB,MUSVOCB,Voice,0.0,AH,,ARR
+1138,MUS VOCC,MUSVOCC,Voice,0.0,AH,,ARR
+1140,MUS VOCD,MUSVOCD,Voice,0.0,AH,,ARR
+1142,NEUR,NEUR320A,Topics in Neuroscience,0.5,,,10:00-11:00 TR
+1144,NEUR,NEUR349A,Clinical Neuroscience and Neuropsychology,1.0,,,2:20-3:50 TR
+1146,NEUR,NEUR480A,Neuroscience Capstone,1.0,,,7:00-9:50 PM M
+1148,NEUR,NEUR480B,Neuroscience Capstone,1.0,,,12:30-3:20 W
+1150,OCS,OCS999A,Off Campus Study,3.5,,,ARR
+1152,PACS,PACS100A,Introduction to Peace and Conflict Studies,1.0,"PPD, SS",,10:00-11:30 TR
+1154,PACS,PACS100B,Introduction to Peace and Conflict Studies,1.0,"PPD, SS",,2:20-3:50 MW
+1156,PACS,PACS290A,Tps:Complexity Thinking,1.0,SS,W,2:20-3:50 TR
+1158,PACS,PACS295A,Applied Conflict Analysis and Resolution,1.0,SS,W,12:40-2:10 TR
+1160,PACS,PACS390A,Tps:War on Drugs,1.0,SS,W,7:00-8:30 PM TR
+1162,PACS,PACS430A,Senior Seminar,1.0,,S,8:30-11:20 M
+1164,PHIL,PHIL101A,Intro to Philosophy: Big Questions,1.0,AH,,2:50-3:50 MWF
+1166,PHIL,PHIL101B,Intro to Philosophy: Big Questions,1.0,AH,,10:20-11:20 MWF
+1168,PHIL,PHIL101C,Intro to Philosophy: The Examined Life,1.0,AH,,9:10-10:10 MWF
+1170,PHIL,PHIL209A,"Tps:Power, Privilege, and Diversity",1.0,PPD,W,10:20-11:20 MWF
+1172,PHIL,PHIL209B,Tps:Philosophy for Children,1.0,,,8:30-11:20 T
+1174,PHIL,PHIL209C,Tps:The Ethics Project,1.0,,,8:20-9:50 TR
+1176,PHIL,PHIL216A,Hist/West.Phil.-EarlyMod,1.0,,,12:30-1:30 MWF
+1178,PHIL,PHIL230A,Ethical Theory,1.0,AH,W,1:40-2:40 MWF
+1180,PHIL,PHIL230B,Ethical Theory,1.0,AH,,8:00-9:00 MWF
+1182,PHIL,PHIL233A,Ethics & Business,1.0,,,2:20-3:50 TR
+1184,PHIL,PHIL251A,Logic,1.0,SM,Q,1:40-2:40 MWF
+1186,PHIL,PHIL251B,Logic,1.0,SM,Q,2:50-3:50 MWF
+1188,PHIL,PHIL309A,Tps:Feminist Philosophy,1.0,,,8:20-9:50 TR
+1190,PHIL,PHIL309B,Tps:Forgiveness & Revenge,1.0,,,10:00-11:30 TR
+1192,PHIL,PHIL309C,Tps:Ethical Perspectives for Leadership,1.0,SS,,12:40-2:10 TR
+1194,PHIL,PHIL469A,Phil Problems: Philosophy of Mind,1.0,,,12:40-2:10 TR
+1196,PHIL,PHIL469B,Phil Problems: Forgiveness & Revenge,1.0,,,10:00-11:30 TR
+1198,PHIL,PHIL470A,Ind Study:Constitutional Law,1.0,,,ARR
+1200,PHIL,PHIL470B,"Ind Study:Philosophy, Politics, and Economics",1.0,,,ARR
+1202,PHIL,PHIL490A,Senior Seminar,1.0,,S,10:20-11:20 MWF
+1204,PHYS,PHYS120A,Principles of Physics I,1.0,SM,Q,1:40-2:40 MWF
+1205,PHYS,120LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+1208,PHYS,PHYS130A,Principles of Physics II,1.0,SM,Q,10:20-11:20 MWF
+1209,PHYS,130LA,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+1212,PHYS,PHYS130B,Principles of Physics II,1.0,SM,Q,12:30-1:30 MWF
+1213,PHYS,130LB,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+1216,PHYS,PHYS220A,Principles of PhysicsIII,1.0,,,10:20-11:20 MWF
+1217,PHYS,220LA,Laboratory - 1 Period,0.0,,,8:30-11:20 R
+1220,PHYS,PHYS380A,Nuclear & Particle Phys.,1.0,,,1:40-2:40 MWF
+1221,PHYS,380LA,Laboratory - 1 Period,0.0,,,12:40-3:30 R
+1224,PHYS,PHYS440A,Quantum Mechanics,1.0,,,9:10-10:10 MWF
+1226,PHYS,PHYS480A,Senior Seminar,0.5,,S,8:30-11:20 R
+1228,POLS,POLS110A,American Government,1.0,"PPD, SS",,10:00-11:30 TR
+1230,POLS,POLS110B,American Government,1.0,"PPD, SS",,8:20-9:50 TR
+1232,POLS,POLS110C,American Government,1.0,"PPD, SS",,9:10-10:10 MWF
+1234,POLS,POLS110D,American Government,1.0,"PPD, SS",,10:20-11:20 MWF
+1236,POLS,POLS130A,Political Theory,1.0,SS,,12:40-2:10 TR
+1238,POLS,POLS150A,Comparative Pols & Govt,1.0,"GL, SS",,10:20-11:20 MWF
+1240,POLS,POLS170A,International Politics,1.0,SS,,12:40-2:10 TR
+1242,POLS,POLS232A,Globalizing Political Theory,1.0,"GL, SS",,2:20-3:50 TR
+1244,POLS,POLS290B,Tps:International Security,1.0,SS,,10:00-11:30 TR
+1246,POLS,POLS318A,Research Design and Writing in Political Science,1.0,,Q,2:20-3:50 TR
+1248,POLS,POLS390A,AdvTps:Understanding Terrorism,1.0,SS,,7:00-8:30 PM TR
+1250,POLS,POLS390B,"AdvTps:Solidarity, Civic Associations, and Protest in the United States",1.0,SS,,2:20-3:50 MW
+1252,POLS,POLS390C,Tps:Terrorism in the United States,1.0,SS,,ARR
+1254,POLS,POLS450A,Seminar: Conflict and Cooperation in the post 9/11 world,1.0,,S,2:20-3:50 MW
+1256,PSY,PSY100A,Introductory Psychology,1.0,SM,,2:20-3:50 TR
+1258,PSY,PSY100B,Introductory Psychology,1.0,SM,,9:10-10:10 MWF
+1260,PSY,PSY100C,Introductory Psychology,1.0,SM,,1:40-2:40 MWF
+1262,PSY,PSY100D,Introductory Psychology,1.0,SM,,2:20-3:50 MW
+1264,PSY,PSY214A,Statistics/Behavioral Sciences,1.0,,Q,2:20-3:50 TR
+1266,PSY,PSY214B,Statistics/Behavioral Sciences,1.0,,Q,12:40-2:10 TR
+1268,PSY,PSY215A,Research Methods,1.0,,,12:40-2:10 TR
+1269,PSY,215LA,Laboratory - 1 Period,0.0,,,7:00-9:50 PM T
+1272,PSY,PSY232A,"Psychological Disorders, Treatments, and Mental Health",1.0,,,10:00-11:30 TR
+1274,PSY,PSY260A,Social Psychology,1.0,PPD,,2:20-3:50 TR
+1276,PSY,PSY280A,Cognitive Psychology,1.0,,,10:20-11:20 MWF
+1278,PSY,PSY290A,Developmental Psychology,1.0,,,8:20-9:50 TR
+1280,PSY,PSY301A,Neuro & Behavior w/Lab,1.0,,,10:00-11:30 TR
+1281,PSY,301LA,Laboratory - 1 Period,0.0,,,7:00-9:50 PM T
+1284,PSY,PSY346A,Tps:Psychology of Gender in Film,1.0,,,7:00-8:30 PM MW
+1286,PSY,PSY352A,Psychotherapy and Treatments of Psychological Disorders,1.0,,,7:00-8:30 PM TR
+1288,PSY,PSY364A,Industrial/Organizational Psy,1.0,,,10:20-11:20 MWF
+1290,PSY,PSY375A,Directed Research,0.0,,,ARR
+1292,PSY,PSY375B,Directed Research,0.0,,,ARR
+1294,PSY,PSY375C,Directed Research,0.0,,,ARR
+1296,PSY,PSY375D,Directed Research,0.5,,,ARR
+1298,PSY,PSY380A,Learning&ComprtiveCogntn,1.0,,S,2:20-3:50 MW
+1300,PSY,PSY493A,Senior Thesis,1.0,,,7:00-9:50 PM M
+1302,PSY,PSY493B,Senior Thesis,1.0,,,12:30-3:20 W
+1304,PSY,PSY496A,Empirical Senior Thesis II,1.0,,,7:00-9:50 PM M
+1306,PSY,PSY496B,Empirical Senior Thesis II,1.0,,,12:30-3:20 W
+1308,REL,REL130A,Intro to Religions,1.0,"GL, AH",,10:20-11:20 MWF
+1310,REL,REL130B,Intro to Religions,1.0,"GL, AH",,12:40-2:10 TR
+1312,REL,REL130C,Intro to Religions,1.0,"GL, AH",,9:10-10:10 MWF
+1314,REL,REL130D,Intro to Religions,1.0,"GL, AH",,1:40-2:40 MWF
+1316,REL,REL190A,Tps:Introduction to the Bible,1.0,,,10:20-11:20 MWF
+1318,REL,REL250A,Christianity,1.0,"GL, AH",,10:00-11:30 TR
+1320,REL,REL253A,Religions of India,1.0,"GL, AH",,2:20-3:50 TR
+1322,REL,REL258A,Buddhism,1.0,"GL, AH",,12:30-1:30 MWF
+1324,REL,REL258B,Buddhism,1.0,"GL, AH",,1:40-2:40 MWF
+1326,REL,REL357A,Modern Hinduism,1.0,"GL, AH",,7:00-9:50 PM W
+1328,REL,REL370A,AdvTps:Cultural Studies of Satan,1.0,"GL, AH",W,10:00-11:30 TR
+1330,REL,REL491A,Ind Study:The Origin of Gods: Evolution of Religious Concepts,0.5,,,ARR
+1332,SOC,SOC100A,Contemporary Society,1.0,SS,,9:10-10:10 MWF
+1334,SOC,SOC100B,Contemporary Society,1.0,SS,,10:20-11:20 MWF
+1336,SOC,SOC100PA,Contemporary Society,1.0,"PPD, SS",,12:40-2:10 TR
+1338,SOC,SOC100PB,Contemporary Society,1.0,"PPD, SS",,10:00-11:30 TR
+1340,SOC,SOC100PC,Contemporary Society,1.0,"PPD, SS",,8:20-9:50 TR
+1342,SOC,SOC201A,Perspectives: Sociology of Black Americans,1.0,"PPD, SS",,2:20-3:50 TR
+1344,SOC,SOC201B,Perspectives: Global and Transnational Sociology,1.0,"GL, SS",,2:20-3:50 MW
+1346,SOC,SOC217A,Queer Theory/Queer Lives,1.0,"PPD, SS",,8:20-9:50 TR
+1348,SOC,SOC242A,Medical Sociology,1.0,SS,,10:20-11:20 MWF
+1350,SOC,SOC301A,Tps:Surveillance Capitalism and Social Control,1.0,SS,,10:00-11:30 TR
+1352,SOC,SOC344A,"Girls, Women, Deviance, and Social Control",1.0,SS,,12:30-1:30 MWF
+1354,SOC,SOC410A,Senior Seminar,1.0,,S,12:40-2:10 TR
+1356,UNIV,UNIV135A,Academic Excellence Seminar,0.5,,,9:00-9:50 TR
+1358,UNIV,UNIV180A,Sci Research Professional Devl,0.25,,,12:40-2:10 T
+1360,UNIV,UNIV180B,Science Research Professional Development I,0.25,,,2:20-3:50 R
+1362,UNIV,UNIV185A,Ind Proj:Business Design Development,0.0,,,ARR
+1364,UNIV,UNIV190A,Tps:Introduction to 3D game Development,1.0,,,2:20-3:50 TR
+1366,UNIV,UNIV190B,Tps:Intro to Librarianship,0.5,,,ARR
+1368,UNIV,UNIV298A,Internship Readings,1.0,,,ARR
+1370,UNIV,UNIV298B,Internship Readings,1.0,,,ARR
+1372,UNIV,UNIV298C,Internship Readings,1.0,,,ARR
+1374,UNIV,UNIV299A,Indpnt.Designed Intrnshp,2.0,,,ARR
+1376,UNIV,UNIV299B,Independently Designed Internship,2.0,,,ARR
+1378,UNIV,UNIV299C,Independently Designed Internship,2.0,,,ARR
+1380,UNIV,UNIV300A,Prac Oral Comm Cons,0.5,,,ARR
+1382,UNIV,UNIV310A,Prac Quant Reason Cons,0.5,,,ARR
+1384,UNIV,UNIV315A,Subject Tutor Training,0.5,,,ARR
+1386,UNIV,UNIV316A,InclusiveExcellencePract,0.25,,,7:00-8:30 PM W
+1388,UNIV,UNIV320A,Tutor Fellow,0.25,,,ARR
+1390,UNIV,UNIV350A,Ind Study:Archaeological Data Analysis and Visualization,0.5,,,ARR
+1392,UNIV,UNIV380A,Science Research Professional Development II,0.25,,,7:00-8:30 PM T
+1394,UNIV,UNIV390A,Tps:Stock Valuation and Analysis,0.5,,,ARR
+1396,UNIV,UNIV390B,Tps:Archives in the Digital Era,0.5,,,ARR
+1398,UNIV,UNIV495A,Independent Interdisciplinary Senior Project: Artistry and Entrepreneurship,1.0,,,ARR
+1400,UNIV,UNIV495B,Independent Interdisciplinary Senior Project: Business Information Systems,1.0,,,ARR
+1402,UNIV EXPA,UNIVEXPA,EXP:Independent Internship,0.0,,,ARR
+1404,UNIV EXPB,UNIVEXPB,EXP:Black and Gold Student Success Initiative (BGSSI) Designing Your DePauw,0.5,,,2:20-3:20 TR
+1406,WGSS,WGSS140A,Introduction to WGSS,1.0,"PPD, SS",,12:40-2:10 TR
+1408,WGSS,WGSS140B,Introduction to WGSS,1.0,"PPD, SS",,2:20-3:50 TR
+1410,WGSS,WGSS250A,Queer Theory/Queer Lives,1.0,"PPD, SS",,8:20-9:50 TR
+1412,WGSS,WGSS262A,Transnational Feminisms,1.0,"GL, SS",W,10:00-11:30 TR
+1414,WGSS,WGSS290A,Tps:Gender Law and Womanism/African Feminism,1.0,,,10:00-11:30 TR
+1416,WGSS,WGSS290B,Tps:African American Women Playwrights,1.0,"PPD, AH",W,2:20-3:50 TR
+1418,WGSS,WGSS340A,Feminist Theory,1.0,,,2:20-3:50 MW
+1420,WLIT,WLIT105A,Introduction to World Literature,1.0,"GL, AH",,9:10-10:10 MWF
+1422,WLIT,WLIT215A,Tps:Viking Myths and Modern Myth-Making,1.0,"GL, AH",W,12:30-1:30 MWF
+1424,WLIT,WLIT215B,Tps:Children's Literature,1.0,"GL, AH",W,2:20-3:50 MW
+1426,WLIT,WLIT315A,AdvTps:Cultural Studies of Satan,1.0,"GL, AH",W,10:00-11:30 TR

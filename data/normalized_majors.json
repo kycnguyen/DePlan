@@ -1,0 +1,818 @@
+[
+  {
+    "name": "Actuarial Science\u00a0and Risk Management",
+    "url": "https://www.depauw.edu/academics/catalog/courses/15/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "MATH151",
+      "MATH152",
+      "ECON100"
+    ],
+    "level_min_required": 5,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Communication",
+    "url": "https://www.depauw.edu/academics/catalog/courses/26/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "COMM200"
+    ],
+    "level_min_required": 4,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Geology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/11/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "GEOS110",
+      "GEOS280",
+      "GEOS310",
+      "GEOS350",
+      "GEOS450"
+    ],
+    "level_min_required": 4,
+    "level_department": "GEOS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Mathematics",
+    "url": "https://www.depauw.edu/academics/catalog/courses/15/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "MATH151",
+      "MATH152",
+      "ECON100"
+    ],
+    "level_min_required": 5,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Africana Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/28/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "BLST100",
+      "BLST240",
+      "BLST281",
+      "BLST480"
+    ],
+    "level_min_required": 4,
+    "level_department": "BLST",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Computer Science",
+    "url": "https://www.depauw.edu/academics/catalog/courses/6/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "CSC121",
+      "CSC125",
+      "CSC231",
+      "CSC235",
+      "CSC236",
+      "CSC498"
+    ],
+    "level_min_required": 4,
+    "level_department": "CSC",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "German",
+    "url": "https://www.depauw.edu/academics/catalog/courses/43/",
+    "total_courses_required": 8,
+    "core_courses": [
+      "GRMN211",
+      "GRMN212",
+      "GRMN304",
+      "GRMN307",
+      "GRMN415"
+    ],
+    "level_min_required": 6,
+    "level_department": "GRMN",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Neuroscience",
+    "url": "https://www.depauw.edu/academics/catalog/courses/21/",
+    "total_courses_required": 11,
+    "core_courses": [
+      "BIO101",
+      "CHEM120",
+      "CSC121",
+      "PSY100",
+      "PSY214",
+      "MATH141"
+    ],
+    "level_min_required": 5,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Anthropology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/23/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "ANTH151",
+      "ANTH153",
+      "ANTH383",
+      "ANTH450",
+      "ANTH380",
+      "ANTH452"
+    ],
+    "level_min_required": 4,
+    "level_department": "ANTH",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Design Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/1/",
+    "total_courses_required": 11,
+    "core_courses": [
+      "ARTH494"
+    ],
+    "level_min_required": 2,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "German Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/43/",
+    "total_courses_required": 8,
+    "core_courses": [
+      "GRMN211",
+      "GRMN212",
+      "GRMN304",
+      "GRMN307",
+      "GRMN415"
+    ],
+    "level_min_required": 6,
+    "level_department": "GRMN",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Peace and Conflict Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/41/",
+    "total_courses_required": 11,
+    "core_courses": [
+      "PACS100",
+      "PACS295",
+      "PACS430",
+      "PACS100"
+    ],
+    "level_min_required": 5,
+    "level_department": "PACS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Art (History)",
+    "url": "https://www.depauw.edu/academics/catalog/courses/1/",
+    "total_courses_required": 11,
+    "core_courses": [
+      "ARTH494"
+    ],
+    "level_min_required": 2,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Earth Science",
+    "url": "https://www.depauw.edu/academics/catalog/courses/11/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "GEOS110",
+      "GEOS280",
+      "GEOS310",
+      "GEOS350",
+      "GEOS450"
+    ],
+    "level_min_required": 4,
+    "level_department": "GEOS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Global French Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/48/",
+    "total_courses_required": 9,
+    "core_courses": [],
+    "level_min_required": 4,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Philosophy",
+    "url": "https://www.depauw.edu/academics/catalog/courses/18/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "PHIL212",
+      "PHIL213",
+      "PHIL216",
+      "PHIL251",
+      "PHIL490"
+    ],
+    "level_min_required": 4,
+    "level_department": "PHIL",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Art (Studio)",
+    "url": "https://www.depauw.edu/academics/catalog/courses/1/",
+    "total_courses_required": 11,
+    "core_courses": [
+      "ARTH494"
+    ],
+    "level_min_required": 2,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Economics",
+    "url": "https://www.depauw.edu/academics/catalog/courses/8/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "ECON100",
+      "ECON294",
+      "ECON295",
+      "ECON350",
+      "ECON480"
+    ],
+    "level_min_required": 3,
+    "level_department": "ECON",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Global Health",
+    "url": "https://www.depauw.edu/academics/catalog/courses/40/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "GLH101",
+      "GLH301",
+      "GLH401",
+      "BIO375",
+      "BIO275",
+      "PSY214"
+    ],
+    "level_min_required": 4,
+    "level_department": "GLH",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Physics",
+    "url": "https://www.depauw.edu/academics/catalog/courses/19/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "PHYS120",
+      "PHYS130",
+      "PHYS210",
+      "PHYS220",
+      "PHYS280",
+      "PHYS480"
+    ],
+    "level_min_required": 3,
+    "level_department": "PHYS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Asian Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/2/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "ARTH133",
+      "ARTH135",
+      "ARTH234",
+      "ASIA140",
+      "ASIA150",
+      "ASIA197",
+      "HIST253",
+      "HIST254",
+      "HIST255",
+      "POLS253",
+      "REL130",
+      "REL253",
+      "ASIA480",
+      "ASIA480",
+      "CHIN161",
+      "CHIN162",
+      "CHIN261",
+      "CHIN262",
+      "CHIN361",
+      "CHIN362",
+      "JAPN151",
+      "JAPN152",
+      "JAPN251",
+      "JAPN252",
+      "JAPN351",
+      "JAPN352"
+    ],
+    "level_min_required": 3,
+    "level_department": "CHIN",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Education Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/9/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "EDUC170",
+      "EDUC222",
+      "EDUC223",
+      "EDUC480",
+      "EDUC490"
+    ],
+    "level_min_required": 5,
+    "level_department": "EDUC",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Greek",
+    "url": "https://www.depauw.edu/academics/catalog/courses/5/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "CLST120",
+      "CLST153",
+      "CLST253",
+      "CLST154",
+      "CLST254",
+      "CLST263",
+      "CLST264",
+      "CLST265",
+      "CLST266",
+      "CLST267"
+    ],
+    "level_min_required": 3,
+    "level_department": "CLST",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Pre-engineering",
+    "url": "https://www.depauw.edu/academics/departments-programs/physics-astronomy/majors-minors/pre-engineering/",
+    "total_courses_required": null,
+    "core_courses": [],
+    "level_min_required": null,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Biochemistry",
+    "url": "https://www.depauw.edu/academics/catalog/courses/31/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "CHEM120",
+      "CHEM130",
+      "CHEM170",
+      "CHEM240",
+      "CHEM260",
+      "CHEM320",
+      "CHEM343",
+      "CHEM440"
+    ],
+    "level_min_required": 3,
+    "level_department": "CHEM",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "English (Writing)",
+    "url": "https://www.depauw.edu/academics/catalog/courses/10/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "ENG141",
+      "ENG251",
+      "ENG451"
+    ],
+    "level_min_required": 5,
+    "level_department": "ENG",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Hispanic Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/47/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "HISP330",
+      "HISP332",
+      "HISP333",
+      "HISP335",
+      "HISP430",
+      "HISP456",
+      "HISP330"
+    ],
+    "level_min_required": null,
+    "level_department": "HISP",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Political Science",
+    "url": "https://www.depauw.edu/academics/catalog/courses/20/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "POLS110",
+      "POLS130",
+      "POLS150",
+      "POLS170",
+      "POLS318",
+      "POLS450"
+    ],
+    "level_min_required": 3,
+    "level_department": "POLS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Biology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/3/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "BIO101",
+      "BIO102",
+      "BIO450"
+    ],
+    "level_min_required": 3,
+    "level_department": "BIO",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "English (Literature)",
+    "url": "https://www.depauw.edu/academics/catalog/courses/10/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "ENG141",
+      "ENG251",
+      "ENG451"
+    ],
+    "level_min_required": 5,
+    "level_department": "ENG",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "History",
+    "url": "https://www.depauw.edu/academics/catalog/courses/13/",
+    "total_courses_required": 1,
+    "core_courses": [
+      "HIST100",
+      "HIST197",
+      "HIST295",
+      "HIST490",
+      "HIST495",
+      "HIST496"
+    ],
+    "level_min_required": 4,
+    "level_department": "HIST",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Psychology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/21/",
+    "total_courses_required": 11,
+    "core_courses": [
+      "BIO101",
+      "CHEM120",
+      "CSC121",
+      "PSY100",
+      "PSY214",
+      "MATH141"
+    ],
+    "level_min_required": 5,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Business Analytics",
+    "url": "https://www.depauw.edu/academics/catalog/courses/51/",
+    "total_courses_required": null,
+    "core_courses": [
+      "ECON100",
+      "BUSA110",
+      "MATH141",
+      "PSY214",
+      "ECON350",
+      "BIO375",
+      "BUSA210",
+      "BUSA305",
+      "MATH341",
+      "ECON385",
+      "ECON450",
+      "BUSA310",
+      "BUSA480"
+    ],
+    "level_min_required": 2,
+    "level_department": "BUSA",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Environmental Biology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/3/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "BIO101",
+      "BIO102",
+      "BIO450"
+    ],
+    "level_min_required": 3,
+    "level_department": "BIO",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Independent Interdisciplinary",
+    "url": "https://www.depauw.edu/academics/departments-programs/interdisciplinary/",
+    "total_courses_required": null,
+    "core_courses": [],
+    "level_min_required": null,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Religious Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/22/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "REL479"
+    ],
+    "level_min_required": 3,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Cellular and Molecular Biology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/3/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "BIO101",
+      "BIO102",
+      "BIO450"
+    ],
+    "level_min_required": 3,
+    "level_department": "BIO",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Environmental Geoscience",
+    "url": "https://www.depauw.edu/academics/catalog/courses/11/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "GEOS110",
+      "GEOS280",
+      "GEOS310",
+      "GEOS350",
+      "GEOS450"
+    ],
+    "level_min_required": 4,
+    "level_department": "GEOS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Italian Cultural Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/46/",
+    "total_courses_required": 8,
+    "core_courses": [
+      "ITAL171",
+      "ITAL172",
+      "ITAL271",
+      "ITAL272"
+    ],
+    "level_min_required": null,
+    "level_department": "ITAL",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Romance Languages",
+    "url": "https://www.depauw.edu/academics/language/majors-minors/",
+    "total_courses_required": 11,
+    "core_courses": [],
+    "level_min_required": 8,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Chemistry",
+    "url": "https://www.depauw.edu/academics/catalog/courses/31/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "CHEM120",
+      "CHEM130",
+      "CHEM170",
+      "CHEM240",
+      "CHEM260",
+      "CHEM320",
+      "CHEM343",
+      "CHEM440"
+    ],
+    "level_min_required": 3,
+    "level_department": "CHEM",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Film and Media Arts",
+    "url": "https://www.depauw.edu/academics/catalog/courses/53/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "FLME100",
+      "FLME195",
+      "FLME429",
+      "FLME430"
+    ],
+    "level_min_required": 3,
+    "level_department": "FLME",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Japanese Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/45/",
+    "total_courses_required": null,
+    "core_courses": [],
+    "level_min_required": null,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Sociology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/23/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "ANTH151",
+      "ANTH153",
+      "ANTH383",
+      "ANTH450",
+      "ANTH380",
+      "ANTH452"
+    ],
+    "level_min_required": 4,
+    "level_department": "ANTH",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Chinese Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/44/",
+    "total_courses_required": null,
+    "core_courses": [],
+    "level_min_required": null,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Film Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/32/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "FILM100",
+      "ENG167",
+      "FILM200",
+      "COMM237",
+      "FILM429",
+      "FILM430"
+    ],
+    "level_min_required": 4,
+    "level_department": "FILM",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Kinesiology",
+    "url": "https://www.depauw.edu/academics/catalog/courses/12/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "KINS100",
+      "KINS255",
+      "KINS256",
+      "KINS309",
+      "KINS353",
+      "KINS450"
+    ],
+    "level_min_required": 6,
+    "level_department": "KINS",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Theatre",
+    "url": "https://www.depauw.edu/academics/catalog/courses/26/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "COMM200"
+    ],
+    "level_min_required": 4,
+    "level_department": null,
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Classical Civilization",
+    "url": "https://www.depauw.edu/academics/catalog/courses/5/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "CLST120",
+      "CLST153",
+      "CLST253",
+      "CLST154",
+      "CLST254",
+      "CLST263",
+      "CLST264",
+      "CLST265",
+      "CLST266",
+      "CLST267"
+    ],
+    "level_min_required": 3,
+    "level_department": "CLST",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Finance",
+    "url": "https://www.depauw.edu/academics/catalog/courses/8/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "ECON100",
+      "ECON294",
+      "ECON295",
+      "ECON350",
+      "ECON480"
+    ],
+    "level_min_required": 3,
+    "level_department": "ECON",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Latin",
+    "url": "https://www.depauw.edu/academics/catalog/courses/5/",
+    "total_courses_required": 9,
+    "core_courses": [
+      "CLST120",
+      "CLST153",
+      "CLST253",
+      "CLST154",
+      "CLST254",
+      "CLST263",
+      "CLST264",
+      "CLST265",
+      "CLST266",
+      "CLST267"
+    ],
+    "level_min_required": 3,
+    "level_department": "CLST",
+    "level_min": 300,
+    "level_max": 499
+  },
+  {
+    "name": "Women's, Gender, and Sexuality Studies",
+    "url": "https://www.depauw.edu/academics/catalog/courses/25/",
+    "total_courses_required": 10,
+    "core_courses": [
+      "WGSS140",
+      "WGSS340",
+      "WGSS350",
+      "WGSS440"
+    ],
+    "level_min_required": 4,
+    "level_department": "WGSS",
+    "level_min": 300,
+    "level_max": 499
+  }
+]

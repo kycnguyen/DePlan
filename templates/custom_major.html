@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Custom Major{% endblock %}
+{% block content %}
+<div class="form-container">
+<h2>Create Custom Major Requirement</h2>
+<form method="POST">
+    <label>Requirement Name:</label><br>
+    <input type="text" name="requirement_name" required><br><br>
+
+    <label>Required Courses (comma-separated):</label><br>
+    <input type="text" name="required_courses" required><br><br>
+
+    <button type="submit">Save</button>
+</form>
+</div>
+
+<hr>
+<h3>Your Saved Custom Requirements</h3>
+{% if custom_reqs %}
+    <ul>
+        {% for req in custom_reqs %}
+            <li>
+                <strong>{{ req[1] }}</strong>: {{ req[2] }}
+                <!-- Optional edit/delete in future -->
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>No custom requirements yet.</p>
+{% endif %}
+{% endblock %}
